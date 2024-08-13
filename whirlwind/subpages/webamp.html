@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>webamp</title>
+    
+    <script src="https://unpkg.com/webamp@1.4.0/built/webamp.bundle.min.js"></script>
+    
+    <style>
+    
+    body {
+      overflow: hidden;
+    }
+    
+    </style>
+    
+  </head>
+  <body>
+    <div style="">
+	<div id="winamp-container"></div>
+    <script>
+const Winamp = window.Webamp;
+// All configuration options are optional.
+const webamp = new Webamp({
+    // Optional.
+    initialTracks: [
+        {
+          
+          metaData: {
+                artist: "Abandoned Pools",
+                title: "Sunny Day",
+            },
+            url: "https://file.garden/ZAkEYVkUN2HXHCu3/mp3/Abandoned%20Pools%20-%20Sunny%20Day.mp3",
+        }, {
+          
+            metaData: {
+                artist: "Boa",
+                title: "Elephant",
+            },
+            url: "https://file.garden/ZAkEYVkUN2HXHCu3/mp3/Boa%20-%20Elephant.mp3",
+        }, {
+            metaData: {
+                artist: "Radiohead",
+                title: "Bones",
+            },
+            url: "https://file.garden/ZAkEYVkUN2HXHCu3/mp3/Bones%20-%20Radiohead.mp3",
+        },
+        {
+          
+            metaData: {
+                artist: "Blur",
+                title: "Chemical World",
+            },
+            url: "https://file.garden/ZAkEYVkUN2HXHCu3/mp3/Blur%20-%20Chemical%20World.mp3",
+        },
+        {
+          
+           metaData: {
+                artist: "The Sundays",
+                title: "You're Not The Only One I Know",
+            },
+            url: "https://file.garden/ZAkEYVkUN2HXHCu3/mp3/Youre%20Not%20The%20Only%20One%20I%20Know%20-%20The%20Sundays.mp3",
+        },
+        {
+          
+            metaData: {
+                artist: "Björk",
+                title: "Hyperballad",
+            },
+            url: "https://file.garden/ZAkEYVkUN2HXHCu3/mp3/Bj%C3%B6rk%20-%20Hyperballad.mp3",
+        },
+        {
+          
+            metaData: {
+                artist: "Incubus",
+                title: "Nowhere Fast",
+            },
+            url: "https://file.garden/ZAkEYVkUN2HXHCu3/mp3/Nowhere%20Fast%20-%20Incubus.mp3",
+        },
+        {
+          
+            metaData: {
+                artist: "Abandoned Pools",
+                title: "Ruin Your Life",
+            },
+            url: "https://file.garden/ZAkEYVkUN2HXHCu3/mp3/Abandoned%20Pools%20-%20Ruin%20Your%20Life%20(128kbps).mp3",
+        },
+        {
+          
+            metaData: {
+                artist: "Radiohead",
+                title: "(Nice Dream)",
+            },
+            url: "https://file.garden/ZAkEYVkUN2HXHCu3/mp3/(Nice%20Dream)%20-%20Radiohead.mp3",
+        },
+        {
+          
+            metaData: {
+                artist: "Frou Frou",
+                title: "Let Go",
+            },
+            url: "https://file.garden/ZAkEYVkUN2HXHCu3/mp3/LetGoFrouFrou.mp3",
+        },
+        {
+          
+            metaData: {
+                artist: "Incubus",
+                title: "Wish You Were Here",
+            },
+            url: "https://file.garden/ZAkEYVkUN2HXHCu3/mp3/Incubus%20-%20Wish%20You%20Were%20Here.mp3",
+        },
+        {
+          
+            metaData: {
+                artist: "Björk",
+                title: "Possibly Maybe",
+            },
+            url: "https://file.garden/ZAkEYVkUN2HXHCu3/mp3/Bj%C3%B6rk%20-%20Possibly%20Maybe.mp3",
+        },
+        {
+          
+            metaData: {
+                artist: "Smashing Pumpkins",
+                title: "Luna",
+            },
+            url: "https://file.garden/ZAkEYVkUN2HXHCu3/mp3/Luna%20(2011%20Remaster)%20(128kbps).mp3",
+        },
+        {
+          
+            metaData: {
+                artist: "Blur",
+                title: "Music is My Radar",
+            },
+            url: "https://file.garden/ZAkEYVkUN2HXHCu3/mp3/Blur%20-%20Music%20is%20My%20Radar.mp3",
+        },
+        {
+          
+            metaData: {
+                artist: "Alanis Morissette",
+                title: "You Learn",
+            },
+            url: "https://file.garden/ZAkEYVkUN2HXHCu3/mp3/You%20Learn%20-%202015%20Remaster%20-%20Alanis%20Morissette.mp3",
+        },
+      ],
+    initialSkin: {
+        url: "https://file.garden/ZAkEYVkUN2HXHCu3/webamp/Winamp5_Classified_v5.5.wsz"
+    },
+});
+webamp.renderWhenReady(document.getElementById('winamp-container'));
+</script>
+</div>
+  </body>
+</html>
