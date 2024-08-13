@@ -1,5 +1,5 @@
 # Whirlwind.net
-personal site made by **frank**. this is the repository version of [whirlwind.net](https://whirlwind.neocities.org/). to easily manage through my computer using github desktop.
+this is the repository version of [whirlwind.net](https://whirlwind.neocities.org/) made by **frank**. its purpose is for me to easily manage my site's pages and files through github desktop.
 
 ## about
 - i code using [phcode.dev](https://phcode.dev/) for real-time previewing.
