@@ -1,0 +1,475 @@
+
+body {
+    width:1000px;
+    margin:auto;
+    font-family: "Ms Ui Gothic";
+    font-size: 15px;
+    background:black;
+}
+
+::selection {
+    background:black;
+    color:red;
+    text-shadow:0 0 1px lightgrey;
+}
+
+hr {
+    border:1px dashed red;
+    border-top:none;
+    margin-block:2px;
+}
+
+h1 {
+    margin:0;
+     font-family:'Genos', sans-serif;
+    color: white;
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000, 0 0 3px #000;
+    font-size: 5.7em;
+    webkit-background-clip: text;
+     transition: all 0.5s;
+        margin-top:55px;
+    margin-left:10px;
+}
+
+ h1:hover {
+    webkit-filter: blur(0.5px);
+filter: blur(2px);
+}
+
+h2 {
+    margin:0;
+    padding:2px;
+    border:1px outset grey;
+    width:380px;
+    margin-left:10px;
+    background:maroon;
+    box-shadow:0px -1px 0px 0px black, 1px 0px 0px 0px black, -1px 0px 0px 0px black, 0px -50px 6px -40px inset black;
+    color:white;
+    font-family: simsun;
+    font-size:19px;
+    text-shadow:-1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
+    border-radius:10px 50px 0 0;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding-left:5px;
+}
+
+h3 {
+    margin:0;
+    text-align: center;
+    padding:2px;
+    border:1px outset grey;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:10px 10px 0 0;
+    background:maroon;
+    box-shadow:0px -1px 0px 0px black, 1px 0px 0px 0px black, -1px 0px 0px 0px black, 0px -50px 6px -40px inset black;
+    color:white;
+    font-family: simsun;
+    font-size:15px;
+    text-shadow:-1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
+    width:132px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+h4 {
+    border: 1px solid grey;
+    width: 250px;
+    padding: 5px;
+    border-radius: 10px;
+    background: white;
+    margin:auto;
+    margin-top:10px;
+    margin-bottom:10px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: simsun;
+    color:red;
+}
+
+h5 {
+    margin:0;
+    padding:2px;
+    font-size:15px;
+    margin-top:5px;
+    font-family: simsun;
+    text-transform: uppercase;
+    text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
+    color:white;
+}
+
+a {
+    color:red;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    font-style: italic;
+}
+
+.structure {
+    width:fit-content;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:5vh;
+}
+
+main {
+    border:2px solid black;
+    width:770px;
+    padding:7px;
+    background:linear-gradient(to top, #252525, #7d7d7d);
+    box-shadow:0 0 1px 1px inset white, 0 0 4px white;
+    border-radius: 100px 5px 5px;
+}
+
+header {
+    height:151px;
+    border-radius:95px 3px 3px;
+     background: url(https://file.garden/ZAkEYVkUN2HXHCu3/web/images/kmjuyu8.png);
+    background-position: 0px 977px;
+    background-size:cover;
+    border:1px solid #f3f3f3;
+    box-shadow:0 0 2px 2.4px maroon, inset 0px 0px 5px #6d6d6d, 0px 0px 15px grey;
+    outline:2px solid black;
+    margin-left:2px;
+    margin-right:2px;
+    margin-bottom:6px;
+    margin-top:2px;
+}
+
+.flex {
+    display: flex;
+    gap:5px;
+}
+
+nav {
+    border:  1px solid #f3f3f3;
+    padding:7px;
+    padding-bottom:9px;
+    background:linear-gradient(180deg, #bb7373 3%, #1c0404 100%);
+    box-shadow:0 0 2px 2.4px maroon, inset 0px 0px 5px #6d6d6d, 0px 0px 15px grey;
+    border-radius:3px;
+    outline:2px solid black;
+    position: relative;
+}
+
+.main-content {
+    padding:7px;
+    padding-bottom:11px;
+    border:1px solid #f3f3f3;
+    background:linear-gradient(180deg, rgb(187 115 115) 3%, rgba(28,4,4,1) 100%);
+    box-shadow:0 0 2px 2.4px maroon, inset 0px 0px 5px #6d6d6d, 0px 0px 15px grey;
+    border-radius:3px;
+    outline:2px solid black;
+    position: relative;
+}
+
+.content {
+    border:1px solid black;
+    padding:5px;
+    background: linear-gradient(180deg, rgba(70,67,62,1) 0%, rgba(32,30,27,1) 100%);
+    box-shadow: inset 0px 0px 2px rgba(0, 0, 0, 0.5);
+    outline:1px solid white;
+    border-radius:5px;
+    margin:2px;
+}
+
+.nav-inner, .links {
+    border: 1px solid black;
+    padding:5px;
+    border-radius:5px;
+    background: linear-gradient(180deg, rgba(70,67,62,1) 0%, rgba(32,30,27,1) 100%);
+    box-shadow: inset 0px 0px 2px rgba(0, 0, 0, 0.5);
+    margin-top:5px;
+    margin-bottom:2px;
+    outline:1px solid white;
+}
+
+nav button {
+    width: 100%;
+    font-family: "simsun";
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    background: linear-gradient(180deg, rgba(136, 26, 25, 1) 0%, rgba(70, 0, 0, 1) 46%, rgba(135, 25, 26, 1) 100%);
+    color: white;
+    border: 1px solid black;
+    text-shadow: 2px 1px 1px black;
+    transition: all 0.3s;
+    font-size: 14px;
+    display: flex;
+    gap: 5px;
+    padding: 3px;
+    justify-content: center;
+    position: relative;
+    box-shadow: inset 0 0 0 1px #ffffff94;
+}
+
+nav button:before{
+    content:"";
+    height:10px;
+    width:118px;
+    position: absolute;
+    top:3px;
+    background:linear-gradient(to bottom, #fff, transparent);
+    border-radius:5px;
+}
+
+nav button:hover {
+    letter-spacing: 5px;
+}
+
+nav button:nth-child(4) {
+    margin-bottom:0;
+}
+
+.button-box, .links-box {
+    background: linear-gradient(180deg, #e2e2e2 0%, rgba(226, 226, 226, 1) 100%);
+    box-shadow: 0px 0px 0px 1px white, 0px 2px 0px 1px white inset, 0px -1px 0px 1px grey inset;
+    border: 1px solid grey;
+    padding:5px;
+    border-radius:5px;
+    
+}
+
+.links a {
+    display: block;
+    margin-bottom:3px;
+}
+
+.links a:before {
+    content:url(https://file.garden/ZAkEYVkUN2HXHCu3/web/graphics/bullet.gif);
+    margin-right:5px;
+}
+
+.content-inner {
+    background: url(https://file.garden/ZAkEYVkUN2HXHCu3/web/images/paper.jpg);
+    border: 1px solid black;
+    height:275px;
+    border-radius:3px;
+    overflow: auto;
+    box-shadow:0 0 0 1px inset white;
+}
+
+.about-inner {
+    background:linear-gradient(to left,black 50%,transparent 70%), url(https://64.media.tumblr.com/83974d953b9d8dad9ff23607d9156d68/83edc6577a92f61e-e2/s400x600/00082f38d3a23464299c02028e7156f80ea9970f.gifv);
+    border: 1px solid black;
+    height:275px;
+    border-radius:3px;
+   box-shadow:0 0 0 1px inset white;
+    overflow: auto;
+    color:white;
+    font-size: 15px;
+}
+
+.bookmarks {
+    background:linear-gradient(0deg, #8d8d8d 0%, rgba(226, 226, 226, 1) 100%);
+    border: 1px solid grey;
+    padding: 5px;
+    border-radius: 0 0 10px 10px;
+    width:486px;
+    margin:auto;
+    border-top:0;
+    box-shadow:0 0 0 1px white inset;
+}
+
+.dates {
+    border:1px solid grey;
+    padding:5px;
+    width:300px;
+    margin:auto;
+    border-top:0;
+    border-radius: 0 0 10px 10px;
+    background: linear-gradient(180deg, #8d8d8d 0%, rgba(226, 226, 226, 1) 100%);
+    box-shadow:0 0 0 1px white inset;
+}
+
+.dates a {
+    font-weight: bold;
+    color:red;
+}
+
+.gradient {
+   color:black;
+    font-weight: bold;
+    text-shadow:1px 1px rgb(255 255 255 / 60%), -1px -1px rgb(0 0 0 / 20%);
+}
+
+.reviews {
+    border:1px solid grey;
+    padding:5px;
+    width:492px;
+    margin:auto;
+    border-radius:10px;
+    background: linear-gradient(#cdcdcd 70%, #464849);
+    box-shadow: inset 1px 1px white,
+}
+
+.review-inner {
+    border: 1px solid grey;
+    padding: 5px;
+    border-radius: 5px;
+    background: white;
+    font-size: 13px;
+    overflow: hidden;
+    text-shadow:1px 1px lightgrey;
+}
+
+.reviews img {
+    border:1px solid black;
+    float:left;
+    width:100px;
+    margin-right:5px;
+}
+
+.reviews details p {
+    border: 1px solid grey;
+    border-radius: 5px;
+    background: linear-gradient(to top, #cdcdcd, transparent);
+    box-shadow: inset 3px 0px 0px 0px red, inset 0px 0px 4px 4px white;
+    padding-left: 5px;
+    padding:2px;
+}
+
+.reviews details > summary {
+    list-style-image: url(https://gifcity.carrd.co/assets/images/gallery12/cf3ec78a.gif?v=d32b0bb8);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: simsun;
+}
+
+.blinkies {
+    margin-top:10px;
+    border:1px solid #f3f3f3;
+    padding:2px;
+    background:linear-gradient(180deg, rgba(62,46,43,1) 3%, rgba(46,7,7,1) 100%);
+    box-shadow:0 0 2px 2.4px maroon, inset 0px 0px 5px #6d6d6d, 0px 0px 15px grey;
+    border-radius:3px;
+    outline:2px solid black;
+    height:26px;
+}
+
+marquee {
+    border:outset 1px black;
+    background:gainsboro;
+    border-radius:3px;
+    padding:2px;
+    height:20px;
+}
+
+.currently { 
+    background:url(https://64.media.tumblr.com/97d7704d199e4426d1b8974f8072ca37/096420c5f6d36a8d-59/s1280x1920/124ce15bac306e1d18b8dab2027299d924371c68.pnj);
+    background-size:cover;
+    height:131px;
+    border:1px solid #f3f3f3;
+    box-shadow:0 0 2px 2.4px maroon, inset 0px 0px 5px #6d6d6d, 0px 0px 15px grey;
+    outline:2px solid black;
+    border-radius:3px;
+    position: relative;
+}
+
+.current-content { background:url(https://64.media.tumblr.com/9973078896afc75a39f7a7ce0f8c44a0/c9f362968cb14fd5-55/s1280x1920/409986f48ae262db2c5fd90767b32931038d233c.pnj);
+    height:121px;
+    background-size:283px;
+    background-repeat: no-repeat;
+    background-position: -2px -17px;
+    filter:drop-shadow(0px 0px 3px black);
+    text-shadow: 1px 1px darkgray;
+}
+
+.currently b {
+    border-radius:5px;
+    display: inline-block;
+    margin-block: 2px;
+    color:red;
+    text-shadow: none;
+}
+
+.details {
+    float:right;
+    padding:5px;
+    width:258px;
+    margin:5px;
+}
+
+.psp {
+    width:398px;
+    z-index: 10;
+    position: relative;
+}
+
+.psp-container {
+    border:1px solid black;
+    width:205px;
+    height:121px;
+    background:black;
+    background-size:cover;
+    position: absolute;
+    transform: translate(89px,-195px) skew(345deg, 10deg);
+    z-index: 9;
+    padding:5px;
+    filter: grayscale(1);
+}
+
+.psp-container:before {
+    background: url(https://file.garden/ZAkEYVkUN2HXHCu3/web/images/computerscreen.png);
+    content: "";
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 230px;
+    height: 151px;
+    background-position-x: 0px;
+    background-position-y: 0px;
+    background-repeat: repeat;
+    z-index: 7;
+    pointer-events: none;
+    opacity: 70%;
+}
+
+.psp-holder {
+    position: absolute;
+    transform: translate(563px, -192px) rotate(-13deg);
+    filter:drop-shadow(0px 0px 2px black) drop-shadow(0px 0px 2px red);
+    pointer-events: none;
+}
+
+.psp-holder marquee {
+    position: absolute;
+    color:white;
+    bottom:16px;
+    left:10px;
+    z-index: 10;
+    font-family: simsun;
+    font-size: 13px;
+    background:none;
+    border:none;
+    text-shadow:0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+}
+
+ .home {
+    color: black;
+    z-index: 10;
+    position: fixed;
+    font-weight: bold;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    top: 4px;
+    left: 5px;
+    font-family: "ms ui gothic";
+        font-size:15px;
+}
+
+ .home a {
+        text-decoration: none;
+        color:black;
+}
+    
+    .home a:hover {
+        font-style:italic;
+}

@@ -1,0 +1,314 @@
+
+body {
+    font-size: 15px;
+    font-family: "ms ui gothic";
+    width:1196px;
+    margin:auto;
+    image-rendering: pixelated;
+    background:linear-gradient(transparent,black), url(https://file.garden/ZAkEYVkUN2HXHCu3/web/images/7yhh.png);
+    background-size:cover;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+
+::selection {
+    background:#456074;
+    color:white;
+    text-shadow: 1px 1px 1px black;
+}
+
+h1 {
+    font-family: 'Genos', sans-serif;
+    color: white;
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000, 0 0 3px #000;
+    font-size: 4.2em;
+    margin:0;
+    margin-top:0;
+    margin-bottom:5px;
+    webkit-background-clip: text;
+    transition: all 0.5s;
+    position: relative;
+    z-index: 10;
+}
+
+h1:hover {
+    webkit-filter: blur(0.5px);
+    filter: blur(2px);
+}
+
+h2 {
+    margin:0;
+    border:1px solid #1A1412;
+    border-radius:5px;
+    background:linear-gradient(0deg, #7e665a 0%, #523e34 63%);
+    color:#EEE8DF;
+    text-shadow: 1px 1px black;
+    box-shadow:1.3px 1.3px inset;
+}
+
+
+h4 {
+    margin:0;
+}
+
+
+
+ul {
+    margin:5px 0;
+    padding-left:5px;
+    list-style:none;
+    text-align: left;
+}
+
+a {
+    color:blue;
+    text-decoration: none;
+}
+
+a:hover {
+  font-style:italic; 
+}
+
+.divider-1 {
+    background:linear-gradient(to left, rgba(126, 102, 90, 0.32) 0%, rgb(82, 62, 52) 63%);
+    height:3px;
+    margin-block: 5px;
+}
+
+.divider-2 {
+    border-top:dashed 1px #3c6069;
+    margin-block:5px;
+}
+
+.structure {
+    width:fit-content;
+    margin-top:5vh;
+    margin-left:auto;
+    margin-right:auto;
+        border: 15px solid transparent;
+    border-image: url(https://file.garden/ZAkEYVkUN2HXHCu3/web/images/7yughjgyu.png) 30 fill round;
+    border-radius:5px;
+    filter:drop-shadow(0 0 2px)
+}
+
+.flex {
+    display:flex;
+}
+
+main {
+    padding:5px;
+    width:605px;
+    background: linear-gradient(to top, #a28065,#503D2E);
+    text-align: center;
+    border-radius:5px;
+    border:2px solid #1A1412;
+}
+
+.main-inner {
+    border:1px solid #241b14;
+    background:white;
+    border-radius:5px;
+    height:710px;
+    background:url(https://foollovers.com/mat/cloth/p03-bg-paper.gif), url(https://foollovers.com/mat/cloth/i01-bg-cloth.gif), url(https://file.garden/ZAkEYVkUN2HXHCu3/web/images/kjejhhjaewf.png);
+    background-blend-mode: multiply;
+    background-size: auto,auto, 592px;
+    background-position: center, center,0 826px;
+    box-shadow:0 0 0 1px inset white, 0 0 2px black;
+    padding:5px;
+}
+
+.newsletter {
+    margin-top:-101px;
+    margin-left:-30px;
+    text-align: left;
+}
+
+.content-1 {
+    border:18px solid black;
+    
+    border-radius:5px;
+   border-image: url(https://file.garden/ZAkEYVkUN2HXHCu3/web/images/89yjkh.png) 46 round;
+    filter: drop-shadow(0 0 1px);
+    text-shadow: 1px 1px 1px #dadada;
+    z-index: 10;
+    position: relative;
+    transform:rotate(-6deg)
+}
+
+.content-1:hover {
+    transform: none;
+}
+
+.inner {
+    border:1px dotted #523e34;
+    padding:5px;
+    background:url(https://file.garden/ZAkEYVkUN2HXHCu3/web/images/grid.png), white;
+    overflow:auto;
+}
+
+.content-2 {
+    border:16px solid black;
+    
+    border-radius:5px;
+   border-image: url(https://file.garden/ZAkEYVkUN2HXHCu3/web/images/78thjg.png) 47 round;
+    filter: drop-shadow(0 0 1px);
+   text-shadow: 1px 1px 1px #dadada;
+    z-index: 10;
+    position: relative;
+}
+
+ .content-2 span {
+    color:#7e665a;
+}
+
+.inner button {
+    background:url(https://foollovers.com/mat/plaid/m05-bg-tattersall.gif),#7ca4be;
+    border:1px solid #1f2b3b;
+    border-radius:5px;
+    font-family: "ms ui gothic";
+    font-weight: bold;
+    box-shadow: inset 1px 1px 2px #ffffff99, inset -3px -3px 2.7px #00000076;
+    text-shadow:1px 1px rgba(255, 255, 255, 0.6);
+    cursor:pointer;
+}
+
+.news-frame {
+    width:479px;
+    height:343px;
+    border:none;
+}
+
+
+#gah {
+    padding:2px;
+    border:1px solid #1A1412;
+    border-radius:5px;
+    background:linear-gradient(0deg, #7e665a 0%, #523e34 63%);
+    color:#EEE8DF;
+    text-shadow: 1px 1px black;
+    box-shadow:1.3px 1.3px inset;
+}
+
+/* HOME LINK */
+.home a {
+    color: black;
+    z-index: 10;
+    position: fixed;
+    font-weight: bold;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    top: 4px;
+    left: 5px;
+}
+
+/* CALENDAR AND CLOCK */
+.calendar-container {
+    box-shadow: 0 0 3px var(--border);
+}
+
+.calendar-container ul {
+    margin: 0;
+    padding: .1em .2em .6em .2em;
+    color: var(--text);
+    background: var(--mainbg);
+}
+
+.calendar-container header {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.calendar-header {
+    border:1px solid #1A1412;
+    border-radius:5px;
+    background:linear-gradient(0deg, #7e665a 0%, #523e34 63%);
+    color:#EEE8DF;
+    text-shadow: 1px 1px black;
+    box-shadow:1.3px 1.3px inset;
+    font-size:1.5em;
+    text-transform: lowercase;
+    margin-bottom:5px;
+}
+
+.calendar-navigation {
+    word-spacing: .4em;
+}
+ 
+header .calendar-navigation span {
+    cursor: pointer;
+    user-select: none;
+}
+ 
+header .calendar-navigation span:hover {
+    color: blue;
+}
+
+.calendar-body ul {
+    list-style: none;
+    flex-wrap: wrap;
+    display: flex;
+    text-align: center;
+}
+ 
+.calendar-body li {
+    width: calc(100% / 7);
+    font-size: 9.6px;
+}
+ 
+.calendar-body .calendar-weekdays li {
+    cursor: default;
+    color: blue;
+    font-weight: 500;
+    margin-bottom: -10px;
+    text-transform: uppercase;
+}
+ 
+.calendar-body .calendar-dates li {
+    margin-top: .9em;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+}
+ 
+.calendar-dates li.inactive {
+    color: #aaa;
+}
+ 
+.calendar-dates li.active {
+    color: black;
+    text-shadow:none;
+}
+ 
+.calendar-dates li::before {
+    position: absolute;
+    content: "";
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    transform: translate(-50%, -50%);
+}
+ 
+.calendar-dates li.active::before {
+    background: #8bbed1;
+}
+ 
+.calendar-dates li:not(.active):hover::before {
+    background: rgba(170, 170, 170, 0.2);
+}
+
+.calendar-dates {
+    margin: 0;
+    padding: 0px;
+    position: relative;
+}
+#MyClockDisplay {
+
+    width:fit-content;
+    margin:auto;
+    background:#8bbed1;
+    text-shadow: none;
+    border-radius:5px;
+    padding:2px;
+}

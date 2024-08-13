@@ -1,0 +1,610 @@
+
+body {
+    font-size:14px;
+    width:1000px;
+    margin:auto;
+    font-family: "simsun";
+    background:black;
+}
+
+h1 {
+    font-family: 'Genos', sans-serif;
+    color: white;
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000, 0 0 3px #000;
+    font-size: 7.1em;
+    webkit-background-clip: text;
+    margin:0;
+    margin-left:10px;
+    margin-top:31px;
+    transition: all 0.5s;
+}
+
+h1:hover {
+    webkit-filter: blur(0.5px);
+    filter: blur(2px);
+}
+
+h2 {
+    margin:0;
+    border:1px outset grey;
+    outline:1px solid black;
+    border-radius:20px 0;
+    padding:2px;
+    padding-left:15px;
+    margin-bottom:5px;
+    background:linear-gradient(to bottom, #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%);
+    color:white;
+    font-size:18px;
+    font-style: italic;
+    letter-spacing: 2px;
+    text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000, 4px 3px rgba(173, 216, 230, 0.42);
+    font-family: 'Genos', sans-serif;
+    line-height: 18px; 
+}
+
+h3 {
+    margin:0;
+    background:linear-gradient(90deg, rgba(192,192,192,0.8785889355742297) 0%, rgba(255,255,255,0.7637429971988796) 100%);
+    border-radius:0 10px 10px 0;
+    border:dotted black 1px;
+    padding-left:5px;
+    font-style: italic;
+}
+
+h4 {
+    margin:0;
+    text-align: center;
+    background:linear-gradient(to right, #c0c0c0e0, #ffffffc3, #c0c0c0e0);
+    border-radius:10px;
+    border:black dotted 1px;
+    padding-left:5px;
+    font-style: italic;
+    margin-top:3px;
+}
+
+h5 {
+    text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000, 0 0 2px black;
+    color:white;
+    font-size:15px;
+    margin:0;
+    margin-top:10px;
+    border:1px solid black;
+    border-radius:0 10px;
+    padding:2px;
+    background: linear-gradient(to right, #ffeaee, #fdc3c7);
+    width:358px;
+    border-bottom:none;
+}
+
+h6 {
+    margin:0;
+    font-size:13px;
+    text-align: center;
+}
+
+ul {
+    margin-top:5px;
+    margin-bottom:5px;
+    padding-left:5px;
+    list-style:none
+}
+
+li {
+    background:linear-gradient(90deg, rgba(192,192,192,0.8785889355742297) 0%, rgba(255,255,255,0.7637429971988796) 100%);
+    margin-bottom:5px;
+    border-radius:100px;
+    border:1px dotted black;
+    padding-left:5px;
+}
+
+b {
+    color:black;
+}
+
+p {
+    transition: linear 0.3s;
+}
+
+p:hover {
+    color:#de7f86;
+}
+
+a {
+    color:black;
+    text-decoration: none;
+}
+
+a:hover {
+    font-style: italic;
+    color:#6297a9;
+}
+
+::selection {
+    background:grey !important;
+    color:white !important;
+    text-shadow: none !important;
+}
+
+hr {
+    margin:0;
+    border:1px solid #A9C2C6;
+}
+
+.structure {
+    width: fit-content;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:5vh;
+    margin-bottom:3vh;
+    position: relative;
+    z-index: 10;
+}
+
+header {
+    border:2px solid black;
+    padding:5px;
+    border-radius:100px 0 0 0;
+    height:130px;
+    box-shadow:0 0 4px #ffffff, inset 0 0 1px 1px white;
+    background:url(https://file.garden/ZAkEYVkUN2HXHCu3/web/images/75jgf8gf.png);
+    margin-bottom:10px;
+    background-position: 0 199px;
+
+}
+
+main {
+    width:690px;
+    border:2px solid black;
+    padding:6px;
+    box-shadow:0 0 1px 1px white inset, 0 0 4px #ffffff;
+    border-radius:0 0 5px 5px; background:url(https://file.garden/ZAkEYVkUN2HXHCu3/web/images/asdjhwdka.png);
+}
+
+
+.flex {
+    display:flex;
+    gap:5px;
+}
+
+.content {
+    border:2px solid black;
+    padding:5px;
+   background: linear-gradient(to top,#17170D,#A9C2C6);
+    box-shadow:inset 0 0 0 1px white;
+    border-radius:5px;
+    outline:dotted white 1px;
+}
+
+.tabcontent {
+    border:2px solid black;
+    padding:5px;
+   background: linear-gradient(to top,#17170D,#A9C2C6);
+    box-shadow:inset 0 0 0 1px white;
+    border-radius:5px;
+    outline:dotted white 1px;
+}
+
+.inner {
+    border:1px solid black;
+    padding:5px;
+    background:url(https://file.garden/ZAkEYVkUN2HXHCu3/web/images/yefjdsu.png),white;
+    background-size:193px;
+    border-radius:10px;
+    box-shadow: inset 0 0 0 1px white, 0 0 3px 1px rgba(0,0,0,0.75) inset;
+    background-blend-mode: luminosity;
+    text-shadow:1px 1px lightgrey;
+    font-family: simsun;
+    overflow:auto;
+    color:#343434;
+}
+
+.content-2 {
+    border:outset 1px black;
+    padding:2px;
+    border-radius:100px 100px 0 0;
+        background:linear-gradient(to bottom, #f7fbfc 0%,#d9edf2 40%,#add9e4 100%);
+    border-bottom:none;
+    
+}
+
+.lyrics {
+    border:1px dotted black;
+    border-radius:95px 95px 0 0;
+    width:299px;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    padding:1px;
+    font-size:12px;
+    text-transform: lowercase;
+    background:white;
+    background: linear-gradient(to right, #ffeaee, #fdc3c7);
+    text-shadow:1px 1px lightgrey;
+    color:#343434;
+}
+
+.divider {
+    border:1px solid black;
+    padding:2px;
+    border-radius:100px;
+    background:white;
+}
+
+.tab {
+    border:2px solid black;
+    padding:5px;
+   background: linear-gradient(to top,#17170D,#A9C2C6);
+    box-shadow:inset 0 0 0 1px white;
+    border-radius:5px;
+    outline:dotted white 1px;
+}
+
+nav {
+     border:1px solid black;
+    padding:5px;
+    background:url(https://file.garden/ZAkEYVkUN2HXHCu3/web/images/yefjdsu.png),white;
+    border-radius:5px;
+    box-shadow: inset 0 0 0 1px white, 1px 1px 3px 0 rgba(0,0,0,0.75) inset;
+    background-blend-mode: luminosity;
+    text-shadow:1px 1px lightgrey;
+}
+
+nav button {
+    width:100%;
+    margin-bottom:3px;
+    background:   linear-gradient(to bottom, #f6f8f9 0%,#e5ebee 50%,#d7dee3 51%,#f5f7f9 100%);
+    border:1px solid grey;
+    border-radius:5px;
+    font-weight: bold;
+    font-family: "simsun";
+    box-shadow:0 0 0 1px inset white, 0 0 2px 1px white inset;
+    text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000, 0 0 2px black;
+    height: 26px;
+    color:white;
+    font-size: 1em;
+}
+
+.tab button.active {
+    font-style: italic;
+    background: linear-gradient(to top, #f6f8f9 0%,#e5ebee 50%,#d7dee3 51%,#f5f7f9 100%);
+}
+
+nav button:nth-child(5) {
+    margin-bottom:0;
+}
+
+nav button:hover {
+    font-style: italic;
+    background: linear-gradient(to top, #f6f8f9 0%,#e5ebee 50%,#d7dee3 51%,#f5f7f9 100%);
+}
+
+.content-3 {
+    border:2px solid black;
+    margin-top:5px;
+    padding:5px;
+    border-radius:10px;
+    background:white;
+    height:66px;
+    outline:dotted white 1px;
+    background: linear-gradient(to bottom, #f7fbfc 0%,#d9edf2 40%,#add9e4 100%);
+    box-shadow: inset 0 0 0 1px white;
+}
+
+#stamps {
+    border-radius:5px;
+    padding:2px;
+    height:60px;
+    background:url(https://web.archive.org/web/20050124083312im_/http://unit.bjork.com/specials/albums/medulla/darkone.jpg);
+    background-size: cover;
+    border:1px solid #1d4064;
+    box-shadow:0 0 0 1px inset white;
+}
+
+#stamps img {
+    filter: grayscale(1) contrast(1.4)
+}
+
+.music-info {
+    background: linear-gradient(to bottom, #f7fbfc 0%,#d9edf2 40%,#add9e4 100%);
+    border:1px solid #1d4064;
+    height: 157px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: inset 0 0 0 1px white, 2px 3px 2px 1px #00000061;
+}
+
+.music-info img {
+    width: 149px;
+    float: left;
+    border: 1px black solid;
+    margin-right: 5px;
+    border-radius: 5px;
+    position: relative;
+    transition: linear 0.5s;
+}
+
+.music-info img:hover {
+    transform: rotate(3deg)
+}
+
+.music-details {
+    border:1px solid black;
+    border-radius:10px 0;
+    height:100px;
+    background:white; background:url(https://file.garden/ZAkEYVkUN2HXHCu3/web/images/veHzqhf.png),white;
+    box-shadow: inset 0 0 0 1px white, 0 0 3px 1px rgba(0,0,0,0.75) inset;
+    background-blend-mode: luminosity;
+    text-shadow:1px 1px lightgrey;
+    font-family: simsun;
+    padding:2px;
+    font-size:13px;
+}
+
+#links .inner { background:url(https://file.garden/ZAkEYVkUN2HXHCu3/web/images/veHzqhf.png),white;
+    background-blend-mode: luminosity;
+    border-radius:5px;
+}
+
+#lastfmbg .inner {
+    background:url(https://www.bjork.fr/IMG/jpg/bjork-2004-medulla-inez-vinoodh-04.jpg);
+    background-size:cover;
+}
+
+.albumbox {
+    border:1px solid black;
+    padding:5px;
+    background-color: white;
+    border-radius:5px;
+    flex:1;
+    font-size:13px;
+}
+    
+    .home {
+    color: black;
+    z-index: 10;
+    position: fixed;
+    font-weight: bold;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    top: 4px;
+    left: 5px;
+    font-family: "ms ui gothic";
+        font-size:15px;
+}
+    
+    .home a {
+        text-decoration: none;
+        color:black;
+}
+    
+    .home a:hover {
+        font-style:italic;
+}
+
+.lastfm {
+    font-family: simsun;
+    color: black;
+    font-size: 10px;
+    border: 1px solid black;
+    background: #ffffff73;
+    text-shadow: none;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.lastfm h1 {
+  display:none;
+}
+
+.lastfm h2 {
+  display:none;
+}
+
+.lastfm .songsCont {
+    height: 163px !important;
+    overflow-x: hidden;
+    overflow-y: auto;
+    line-height: 1.1;
+}
+
+.lastfm table {
+    border-spacing: 0px 2px;
+    border-collapse: separate;
+}
+
+.lastfm .track {
+    text-align: right;
+    padding: 4px;
+    border: 1px solid black;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background: lightgray;
+    width: 120px;
+}
+
+.lastfm .now {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    animation: wiggle 2s infinite;
+    color: white !important;
+    background: #d9edf2;
+    position: relative;
+}
+
+.lastfm .maravillosoTitulo a:hover {
+    color: #6297a9;
+}
+
+.lastfm .songsCont {
+    overflow-x: hidden;
+    overflow-y: auto;
+    line-height: 1.1;
+    height: 220px !important;
+}
+
+.lastfm .now:before {
+    content: url(https://64.media.tumblr.com/45b3ee7112e923fd7b4d29aa04e3dd15/2e220f9d268f7399-eb/s75x75_c1/18583e7cf663859e0aa3aa59117720a7546e8d66.gifv);
+    position: absolute;
+    left: 1px;
+    float: left;
+    color: white;
+    text-shadow: 1px 1px 0px gray;
+    
+}
+
+.lastfm .img {
+    padding: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px solid black;
+    border-left: none;
+    background: white;
+}
+
+.lastfm .img > img {
+    width: 40px;
+    margin-top: 1px;
+    margin-bottom: -2px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    image-rendering: pixelated;
+}
+
+.lastfm .title {
+    font-size: 10px;
+    font-weight: bold;
+    color: black;
+    text-shadow: 0px 0px 1px;
+}
+
+
+.lastfm .artist {
+    font-size: 10px;
+    color: black;
+    
+}
+
+.lastfm .album {
+    font-size: 9px;
+    font-style: italic;
+    color: gray;
+}
+
+.lastfm .maravillosoTitulo {
+
+    text-align: left;
+    color: black;
+    font-size: 10px;
+}
+
+.lastfm .maravillosoTitulo > a {
+    color:#6297a9 !important;
+    text-decoration: none;
+}
+
+.lastfm .maravillosoTitulo > a:hover {
+    color: black;
+}
+
+.lastfm .scrbls b {
+    color: black !important;
+}
+
+.lastfm .lfm-img {
+    border-radius: 5px;
+    max-width: 44px;
+    max-height: 50px;
+    float: left;
+    margin-right: 5px;
+    transition: transform .3s linear;
+    -webkit-transition: -webkit-transform .3s linear;
+    -moz-transition: -moz-transform .3s linear;
+    -ms-transition: -ms-transform .3s linear;
+    -o-transition: -o-transform .3s linear;
+}
+
+.lastfm .shd-cntB {
+    bottom: 8px;
+    background: none;
+    background: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 100%);
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0)));
+    background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 100%);
+    background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.lastfm .marquee-song {
+    -webkit-mask-box-image: -webkit-gradient(linear, left, color-stop(rgba(0,0,0,0) 0%), color-stop(#FFF 5%), color-stop(#FFF 95%), color-stop(rgba(0,0,0,0) 100%));
+    -webkit-mask-box-image: -webkit-linear-gradient(left, rgba(0,0,0,0) 0%, #FFF 5%, #FFF 95%, rgba(0,0,0,0) 100%);
+    -moz-mask-box-image: -moz-linear-gradient(left, rgba(0,0,0,0) 0%, #FFF 5%, #FFF 95%, rgba(0,0,0,0) 100%);
+    -o-mask-box-image: -o-linear-gradient(left, rgba(0,0,0,0) 0%, #FFF 5%, #FFF 95%, rgba(0,0,0,0) 100%);
+}
+
+.lastfm .scrbls {
+    font-size: 9px;
+} .lastfm .scrbls b {
+    color: gray;
+}
+
+.slimScrollDiv {
+    position: relative;
+    overflow: hidden;
+    width: auto;
+    height: 226px !important;
+}
+
+.lastfm .slimScrollDiv {
+    width: 160px !important;
+}
+
+.lastfm table {
+    width: 160px;
+    padding-left: 4px;
+    margin-top: 5px;
+}
+
+.lastfm center {
+  display:none !important;
+}
+
+.lastfm style {
+  display:none;
+}
+.containeralbum {
+    border: 1px solid black;
+    margin: 2px;
+    display: block;
+    float: left;
+    position: relative;
+    width:135px;
+    color:white;
+    text-shadow:none;
+    text-align: center;
+}
+
+.albuming {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.88);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .4s ease;
+}
+
+.albdetail {
+    width: 100%;
+    padding: .5em;
+    box-sizing: border-box;
+}
+
+.containeralbum:hover .overlay {
+bottom: 0;
+height: 100%;
+}
