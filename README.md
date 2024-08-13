@@ -2,7 +2,7 @@
 this is the repository version of [whirlwind.net](https://whirlwind.neocities.org/) made by **frank**. its purpose is for me to easily manage my site's pages and files through github desktop.
 
 ## about
-- i code using [phcode.dev](https://phcode.dev/) for real-time previewing.
+- i code using [phcode.dev](https://phcode.dev/) desktop for real-time previewing.
 - i used this [deploy to neocities](https://github.com/burned-salmon/deploy-to-neocities-template) guide to upload edits and files to my site through github.
 - a queer coded this site
 
