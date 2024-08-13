@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>newsletter</title>
+
+    <link href="/styling/newsletter.css" rel="stylesheet" type="text/css" media="all">
+      <link rel="stylesheet" href="https://whirlwind.neocities.org/styling/scrollbar.css">
+      
+	<link rel="icon" type="image/x-icon" href="https://file.garden/ZAkEYVkUN2HXHCu3/web/graphics/38a71a7a.gif">
+      
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Genos&display=swap" rel="stylesheet">
+      
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+<link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+ <link rel="stylesheet" type="text/css" href="/styling/musicplayer.css">
+      
+    <style>
+.lines {
+position: fixed;
+left: 0;
+top: 0;
+width: 100vw;
+height: 100vh;
+pointer-events: none;
+z-index: 300;
+opacity: 0.05;
+}
+ 
+.lines:before {
+content: '';
+position: absolute;
+left: 0;
+top: 0;
+right: 0;
+bottom: 0;
+pointer-events: none;
+background: linear-gradient(to bottom, transparent 50%, rgba(0, 0, 0, .5) 51%);
+background-size: 100% 4px;
+will-change: background, background-size; animation: scanlines 0.2s linear infinite;
+}
+ 
+@keyframes scanlines {
+from {
+background: linear-gradient(to bottom, transparent 10%, rgba(0, 0, 0, .5) 51%); background-size: 100% 4px; }
+to {
+background: linear-gradient(to bottom, rgba(0, 0, 0, .5) 50%, transparent 51%);
+background-size: 100% 4px;
+}
+}
+@media only screen and (max-width: 600px);
+{
+</style>
+  </head>
+  <body>
+      
+       <div class="lines"></div>
+      
+      <!-- LAYOUT END -->
+      <div class="structure">
+          
+          <!-- MAIN START -->
+          <main>
+              
+              <div class="main-inner">
+                  <h1>newsletter</h1>
+                  
+                  <!-- INFO AND NAV START -->
+                  <div class="flex">
+                      
+                      <!-- WELCOME START -->
+                      <aside style="flex:1;">
+                          <div class="content-1">
+                              <div style="background:linear-gradient(#F6ECDD,#DABF9D);    padding:5px;border:1px solid #523e34;">
+                              <div class="inner" style="height:120px">
+                                  <h2 style="margin-bottom:5px;">welcome</h2>
+                              <img src="https://64.media.tumblr.com/389feb171edbc1c23a29ccdde575a0af/tumblr_inline_mg0oknrIjo1qdlkyg.gif"> <b>welcome</b> to the site's newsletter! this is basically where you can read up on the extended updates, as well as site plans and other things.
+                              </div>
+                          </div>
+                          </div>
+                      </aside>
+                      <!-- WELCOME END -->
+                      
+                      <!-- UPDATES START -->
+                      <aside style="flex:1">
+                          <div class="content-2">
+                              <div style="background:linear-gradient(#F6ECDD,#DABF9D);    padding:5px;border:1px solid #523e34;">
+                              <div class="inner">
+                               <!-- calen -->
+                            <div class="calendar-container">
+                                <div class="calendar-header">
+                                    <h4 class="calendar-current-date"></h4>
+                                </div>
+                            
+                                <div class="calendar-body">
+                                    <ul class="calendar-weekdays">
+                                        <li>Su</li>
+                                        <li>Mo</li>
+                                        <li>Tu</li>
+                                        <li>We</li>
+                                        <li>Th</li>
+                                        <li>Fr</li>
+                                        <li>Sa</li>
+                                    </ul>
+                                    <ul class="calendar-dates"></ul>
+                                </div>
+                            </div>
+                                   <div id="MyClockDisplay" onload="showTime()"></div>
+                              </div>
+                          </div>
+                          </div>
+                      </aside>
+                      <!-- UPDATES END -->
+                      
+                  </div>
+                  <!-- INFO AND NAV END -->
+                  
+                  <!-- NEWSLETTER START -->
+                  <div class="newsletter">
+                    
+                <img src="https://file.garden/ZAkEYVkUN2HXHCu3/web/graphics/gsdhfhsd.png" width="690" style="filter: drop-shadow(0px 0px 3px grey);pointer-events: none;">
+                
+                <div style=" position: absolute;
+    transform: translate(107px, -439px);">
+                    <center style="margin-top:-25px;margin-bottom:21px;margin-left:-15px;"><span id="gah">click updates to uncollapse</span></center>
+                    
+              <iframe src="/subpages/newsframe.html" class="news-frame"></iframe>
+                    
+                    </div>
+                  </div>
+                  <!-- NEWSLETTER END -->
+              </div>
+          
+          </main>
+          <!-- MAIN END -->
+          
+      </div>
+      <!-- LAYOUT END -->
+      
+      <!-- FLOATERS -->
+      <img src="https://file.garden/ZAkEYVkUN2HXHCu3/web/graphics/tape/Washi%20Tape%203.png" style="position: absolute;width:188px;transform: translate(230px,-759px) rotate(-25deg);pointer-events: none;">
+      
+      <img src="https://file.garden/ZAkEYVkUN2HXHCu3/web/graphics/8jkhk.png" style="position: absolute;width:150px;transform: translate(249px,-644px) rotate(-25deg);pointer-events: none;">
+      
+      <img src="https://file.garden/ZAkEYVkUN2HXHCu3/web/graphics/thumbtack.png" style="position: absolute;width:40px;transform: translate(873px,-654px) rotate(19deg);pointer-events: none;">
+      
+      <img src="https://file.garden/ZAkEYVkUN2HXHCu3/web/graphics/pensjs.png" style="width:273px;position: absolute;transform: translate(26px, -653px);pointer-events: none;">
+      
+      <img src="https://file.garden/ZAkEYVkUN2HXHCu3/web/graphics/7yghjgj.png" style="width:207px;position: absolute;transform: translate(129px, -206px) rotate(62deg);pointer-events: none;">
+      
+      <img src="https://file.garden/ZAkEYVkUN2HXHCu3/web/graphics/ujemfmek.png" style="width:361px;position: absolute;transform: translate(908px, -624px) rotate(-16deg);pointer-events: none;">
+      
+      <img src="https://file.garden/ZAkEYVkUN2HXHCu3/web/graphics/7rjgjrt.png" style="width:165px;position: absolute;transform: translate(899px, -157px) rotate(-16deg);pointer-events: none;">
+      <!-- FLOATERS --> 
+      
+      <!-- HOME LINK START -->
+       <span class="home"><a href="/main">home</a></span>
+      <!-- HOME LINK END -->
+      
+      <!-- MUSIC PLAYER START -->
+  <div id="musicplayer" class="player">
+				<!-- Define the section for displaying details -->
+							
+<div class="musicdetails">
+<img src="https://64.media.tumblr.com/a404105fb71eb8ea9d2c618a5d1bebdb/b4746bdbb4997815-9f/s75x75_c1/b373b5764a379488d22d13353c27cf4ab71c0050.gifv">
+    <div>
+         <marquee style="background:none; border:none; padding:0;height:fit-content;" scrollamount="3" class="now-playing"></marquee>
+    </div>
+							</div>
+      
+							<div class="playersettings">
+								<div class="current-time" style="float:left">00:00</div>
+								<div class="buttons">
+									<div class="prev-track" onclick="prevTrack()">
+										<i class="fa fa-step-backward"></i>
+									</div>
+									<div class="playpause-track" onclick="playpauseTrack()">
+										<i class="fa fa-play-circle"></i>
+									</div>
+									<div class="next-track" onclick="nextTrack()">
+										<i class="fa fa-step-forward"></i>
+									</div>
+								</div>
+	
+								<!-- Define the section for displaying the seek slider-->
+								<div class="slider_container">
+									<input type="range" min="1" max="100"
+										value="0" class="seek_slider" onchange="seekTo()">
+								</div>
+						
+								<!-- Define the section for displaying the volume slider-->
+								 <div class="slider_container">
+      <i class="fa fa-volume-down"></i>
+      <input type="range" min="1" max="100"
+        value="99" class="volume_slider" onchange="setVolume()">
+    </div>
+							</div>
+							
+						</div>
+  <!-- MUSIC PLAYER END -->
+ 
+  <!-- MUSIC PLAYER SCRIPT START -->
+  <script>
+      // Select all the elements in the HTML page
+// and assign them to a variable
+let now_playing = document.querySelector(".now-playing");
+
+let playpause_btn = document.querySelector(".playpause-track");
+let next_btn = document.querySelector(".next-track");
+let prev_btn = document.querySelector(".prev-track");
+let vol_icon = document.querySelector(".vol-icon");
+
+let seek_slider = document.querySelector(".seek_slider");
+let volume_slider = document.querySelector(".volume_slider");
+let curr_time = document.querySelector(".current-time");
+
+// Specify globally used values
+let track_index = 0;
+let isPlaying = false;
+let updateTimer;
+let total_duration = 0;
+
+// Create the audio element for the player
+let curr_track = document.createElement('audio');
+
+let track_list = [
+  {
+      name:"the sundays - skin & bones",
+      path:"https://file.garden/ZAkEYVkUN2HXHCu3/mp3/Skin%20%26%20Bones%20-%20The%20Sundays.mp3"
+  },
+  {
+      name:"the sundays - certain someone",
+      path:"https://file.garden/ZAkEYVkUN2HXHCu3/mp3/A%20Certain%20Someone%20-%20The%20Sundays.mp3"
+  },
+  {
+      name:"the sundays - here's where the story ends",
+      path:"https://file.garden/ZAkEYVkUN2HXHCu3/mp3/The%20Sundays%20-%20Heres%20Where%20The%20Story%20Ends.mp3"
+  },
+];
+
+function loadTrack(track_index) {
+  // Clear the previous seek timer
+  clearInterval(updateTimer);
+  resetValues();
+  
+  // Load a new track
+  curr_track.src = track_list[track_index].path;
+  curr_track.load();
+  
+  // Update details of the track
+  now_playing.textContent = track_list[track_index].name;
+  
+  // Set an interval of 1000 milliseconds
+  // for updating the seek slider
+  updateTimer = setInterval(seekUpdate, 1000);
+  
+  // Move to the next track if the current finishes playing
+  // using the 'ended' event
+  curr_track.addEventListener("ended", nextTrack);
+  
+}
+  
+// Function to reset all values to their default
+function resetValues() {
+  curr_time.textContent = "00:00";
+  // total_duration.textContent = "00:00";
+  seek_slider.value = 0;
+}
+
+function playpauseTrack() {
+  // Switch between playing and pausing
+  // depending on the current state
+  if (!isPlaying) playTrack();
+  else pauseTrack();
+}
+    
+function playTrack() {
+  // Play the loaded track
+  curr_track.play();
+  isPlaying = true;
+  
+  // Replace icon with the pause icon
+  playpause_btn.innerHTML = '<i class="fa fa-pause-circle"></i>';
+}
+    
+function pauseTrack() {
+  // Pause the loaded track
+  curr_track.pause();
+  isPlaying = false;
+  
+  // Replace icon with the play icon
+  playpause_btn.innerHTML = '<i class="fa fa-play-circle"></i>';
+}
+    
+function nextTrack() {
+  // Go back to the first track if the
+  // current one is the last in the track list
+  if (track_index < track_list.length - 1)
+    track_index += 1;
+  else track_index = 0;
+  
+  // Load and play the new track
+  loadTrack(track_index);
+  playTrack();
+}
+  
+function prevTrack() {
+  // Go back to the last track if the
+  // current one is the first in the track list
+  if (track_index > 0)
+    track_index -= 1;
+  else track_index = track_list.length - 1;
+  
+  // Load and play the new track
+  loadTrack(track_index);
+  playTrack();
+}
+
+function seekTo() {
+  // Calculate the seek position by the
+  // percentage of the seek slider
+  // and get the relative duration to the track
+  seekto = curr_track.duration * (seek_slider.value / 100);
+  
+  // Set the current track position to the calculated seek position
+  curr_track.currentTime = seekto;
+}
+  
+function setVolume() {
+  // Set the volume according to the
+  // percentage of the volume slider set
+  curr_track.volume = volume_slider.value / 100;
+  if (curr_track.volume == 0) {
+    vol_icon.innerHTML = '<i class="fa fa-volume-mute fa-fw"></i>';
+  } else {
+    vol_icon.innerHTML = '<i class="fa fa-volume-low fa-fw"></i>';
+  }
+}
+  
+function seekUpdate() {
+  let seekPosition = 0;
+  
+  // Check if the current track duration is a legible number
+  if (!isNaN(curr_track.duration)) {
+    seekPosition = curr_track.currentTime * (100 / curr_track.duration);
+    seek_slider.value = seekPosition;
+  
+    // Calculate the time left and the total duration
+    let currentMinutes = Math.floor(curr_track.currentTime / 60);
+    let currentSeconds = Math.floor(curr_track.currentTime - currentMinutes * 60);
+    let durationMinutes = Math.floor(curr_track.duration / 60);
+    let durationSeconds = Math.floor(curr_track.duration - durationMinutes * 60);
+  
+    // Add a zero to the single digit time values
+    if (currentSeconds < 10) { currentSeconds = "0" + currentSeconds; }
+    if (durationSeconds < 10) { durationSeconds = "0" + durationSeconds; }
+    if (currentMinutes < 10) { currentMinutes = "0" + currentMinutes; }
+    if (durationMinutes < 10) { durationMinutes = "0" + durationMinutes; }
+  
+    // Display the updated duration
+    curr_time.textContent = currentMinutes + ":" + currentSeconds;
+    // total_duration.textContent = durationMinutes + ":" + durationSeconds;
+  }
+}
+
+// Load the first track in the tracklist
+loadTrack(track_index);
+  
+    </script>
+  <!-- MUSIC PLAYER SCRIPT END -->
+      
+      
+      <script src="time.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,371 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styling/scrollbar.css">
+    <link href="/styling/blog.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/styling/musicplayer.css" rel="stylesheet" type="text/css" media="all">
+    <title>blogging</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Genos&display=swap" rel="stylesheet">
+
+<link rel="icon" type="image/x-icon" href="https://wilardo.crd.co/assets/images/gallery04/95718630_original.gif?v=bca827db">
+<link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+    <style>
+.lines {
+position: fixed;
+left: 0;
+top: 0;
+width: 100vw;
+height: 100vh;
+pointer-events: none;
+z-index: 300;
+opacity: 0.05;
+}
+ 
+.lines:before {
+content: '';
+position: absolute;
+left: 0;
+top: 0;
+right: 0;
+bottom: 0;
+pointer-events: none;
+background: linear-gradient(to bottom, transparent 50%, rgba(0, 0, 0, .5) 51%);
+background-size: 100% 4px;
+will-change: background, background-size; animation: scanlines 0.2s linear infinite;
+}
+ 
+@keyframes scanlines {
+from {
+background: linear-gradient(to bottom, transparent 10%, rgba(0, 0, 0, .5) 51%); background-size: 100% 4px; }
+to {
+background: linear-gradient(to bottom, rgba(0, 0, 0, .5) 50%, transparent 51%);
+background-size: 100% 4px;
+}
+}
+@media only screen and (max-width: 600px);
+{
+}
+  
+
+</style>
+    
+  </head>
+  <body>
+
+     <div class="lines"></div>
+      
+      <!-- LAYOUT START -->
+      <div class="structure">
+          <!-- HEADER START -->
+          <div class="header">
+              <h1>blog</h1>
+          </div>
+          <!-- HEADER END -->
+          <div class="container">
+              <div class="container-inner">
+                  <div class="flex-box">
+                      <!-- LEFT PAGE START -->
+                      <aside class="left" style="flex:1">
+                          <div class="left-box">
+                              
+                              <div class="box" style="margin-bottom:10px">
+                                  <h2>welcome</h2>
+                                  <div class="inner">
+                                      <img src="https://file.garden/ZAkEYVkUN2HXHCu3/web/graphics/swirly.gif"> <p>welcome to my blog. i always thought that having a digital diary/journal would be more easier and organized, so i have it all right here to dump my thoughts, feelings, and whatever interests me.
+                                      </p>
+                                      
+                                      <p style="margin-top:5px;">select the tabs to see entries related to the topic.</p>
+                                      
+                                  </div>
+                              </div>
+                              
+                              <div class="box" >
+                                  <h2>disclaimer</h2>
+                                  <div class="inner">
+                                      <img src="https://file.garden/ZAkEYVkUN2HXHCu3/web/graphics/swirly.gif"> <p>i am going to discuss some of my interests which may have horror themes or heavy topics such as violence, death, etc. i will also have some thoughts and feelings ill dump here which will probably go into personal issues.
+other wise, entries will have a warning & category on them :-).</p>
+                                  </div>
+                              </div>
+                              
+                          </div>
+                      </aside>
+                      <!-- LEFT PAGE END -->
+                      
+                      <!-- SPIRAL START -->
+                      <aside class="middle">
+                          <img class="spiral" src="https://file.garden/ZAkEYVkUN2HXHCu3/web/graphics/sdkadfdsaf.png">
+                      </aside>
+                      <!-- SPIRAL END -->
+                      
+                      <!-- RIGHT PAGE START-->
+                      <aside class="right" style="flex:1">
+                          <div class="right-box" >
+                              <iframe name="blog" src="subpages/personal" class="entryframe">
+                              </iframe>
+                          </div>
+                      </aside>
+                      <!-- RIGHT PAGE END -->
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!-- LAYOUT END -->
+      
+      <!-- TABS START -->
+      <div class="tab-wrapper">
+          <a target="blog" href="/subpages/personal">personal <img src="https://file.garden/ZAkEYVkUN2HXHCu3/web/graphics/od05-icon-new.gif"></a>
+          <a target="blog" href="/subpages/music">music</a>
+          <a href="">film/series</a>
+          <a target="blog" href="/subpages/games">games</a>
+      </div>
+      <!-- TABS END -->
+      
+      <!-- STATUS SECTION START -->
+      <div class="status-wrapper">
+      <img class="status-frame" src="https://file.garden/ZAkEYVkUN2HXHCu3/web/graphics/uygnjk0.png">
+          <div class="status">
+              <p><b>listening to</b>: Hong Kong - Gorillaz - D-Sides</p>
+              <p><b>watching</b>: Suite Life on Deck LMFAO</p>
+              <p><b>eating</b>: nothing atm</p>
+              <p style="margin:0px;"><b>on mind</b>: radiohead yuri unfortunately</p>
+          </div>
+      </div>
+      <!-- STATUS SECTION END -->
+
+      <!-- FLOATERS START -->
+      <div class="dropshadow">
+      <img class="object1" src="https://file.garden/ZAkEYVkUN2HXHCu3/web/graphics/a_berry_in_slumber-removebg-preview.png">
+      <img class="object2" src="https://file.garden/ZAkEYVkUN2HXHCu3/web/graphics/clover.png">
+      <img class="object3" src="https://file.garden/ZAkEYVkUN2HXHCu3/web/graphics/paperbg.png">
+      </div>
+      <img class="object4" src="https://file.garden/ZAkEYVkUN2HXHCu3/web/graphics/sooofrutiger.gif">
+      <img class="object5" src="https://file.garden/ZAkEYVkUN2HXHCu3/web/graphics/bvkog99.png">
+      <img class="object6" src="https://file.garden/ZAkEYVkUN2HXHCu3/web/graphics/89kjgyhj.png">
+      <img class="object7" src="https://file.garden/ZAkEYVkUN2HXHCu3/web/graphics/7eca0438.png">
+      <!-- FLOATERS END -->
+      
+      <!-- HOME LINK START -->
+       <span class="home"><a href="/main">home</a></span>
+      <!-- HOME LINK END -->
+       
+       
+ <!-- MUSIC PLAYER START -->
+  <div id="musicplayer" class="player" style="text-shadow:none;">
+				<!-- Define the section for displaying details -->
+							
+<div class="musicdetails">
+<img src="https://64.media.tumblr.com/a404105fb71eb8ea9d2c618a5d1bebdb/b4746bdbb4997815-9f/s75x75_c1/b373b5764a379488d22d13353c27cf4ab71c0050.gifv">
+    <div>
+         <marquee style="background:none; border:none; padding:0;height:fit-content;" scrollamount="3" class="now-playing"></marquee>
+    </div>
+							</div>
+      
+							<div class="playersettings">
+								<div class="current-time" style="float:left">00:00</div>
+								<div class="buttons">
+									<div class="prev-track" onclick="prevTrack()">
+										<i class="fa fa-step-backward"></i>
+									</div>
+									<div class="playpause-track" onclick="playpauseTrack()">
+										<i class="fa fa-play-circle"></i>
+									</div>
+									<div class="next-track" onclick="nextTrack()">
+										<i class="fa fa-step-forward"></i>
+									</div>
+								</div>
+	
+								<!-- Define the section for displaying the seek slider-->
+								<div class="slider_container">
+									<input type="range" min="1" max="100"
+										value="0" class="seek_slider" onchange="seekTo()">
+								</div>
+						
+								<!-- Define the section for displaying the volume slider-->
+								 <div class="slider_container">
+      <i class="fa fa-volume-down"></i>
+      <input type="range" min="1" max="100"
+        value="99" class="volume_slider" onchange="setVolume()">
+    </div>
+							</div>
+							
+						</div>
+  <!-- MUSIC PLAYER END -->
+ 
+  <!-- MUSIC PLAYER SCRIPT START -->
+  <script>
+      // Select all the elements in the HTML page
+// and assign them to a variable
+let now_playing = document.querySelector(".now-playing");
+
+let playpause_btn = document.querySelector(".playpause-track");
+let next_btn = document.querySelector(".next-track");
+let prev_btn = document.querySelector(".prev-track");
+let vol_icon = document.querySelector(".vol-icon");
+
+let seek_slider = document.querySelector(".seek_slider");
+let volume_slider = document.querySelector(".volume_slider");
+let curr_time = document.querySelector(".current-time");
+
+// Specify globally used values
+let track_index = 0;
+let isPlaying = false;
+let updateTimer;
+let total_duration = 0;
+
+// Create the audio element for the player
+let curr_track = document.createElement('audio');
+
+let track_list = [
+  {
+      name:"lush - fantasy",
+      path:"https://file.garden/ZAkEYVkUN2HXHCu3/mp3/Fantasy%20-%20Lush.mp3"
+  },
+  {
+      name:"lush - tiny smiles",
+      path:"https://file.garden/ZAkEYVkUN2HXHCu3/mp3/Lush%20-%20Tiny%20Smiles.mp3"
+  },
+  {
+      name:"lush - thoughtforms (2nd version)",
+      path:"https://file.garden/ZAkEYVkUN2HXHCu3/mp3/Thoughtforms%20(2nd%20Version).mp3"
+  },
+];
+
+function loadTrack(track_index) {
+  // Clear the previous seek timer
+  clearInterval(updateTimer);
+  resetValues();
+  
+  // Load a new track
+  curr_track.src = track_list[track_index].path;
+  curr_track.load();
+  
+  // Update details of the track
+  now_playing.textContent = track_list[track_index].name;
+  
+  // Set an interval of 1000 milliseconds
+  // for updating the seek slider
+  updateTimer = setInterval(seekUpdate, 1000);
+  
+  // Move to the next track if the current finishes playing
+  // using the 'ended' event
+  curr_track.addEventListener("ended", nextTrack);
+  
+}
+  
+// Function to reset all values to their default
+function resetValues() {
+  curr_time.textContent = "00:00";
+  // total_duration.textContent = "00:00";
+  seek_slider.value = 0;
+}
+
+function playpauseTrack() {
+  // Switch between playing and pausing
+  // depending on the current state
+  if (!isPlaying) playTrack();
+  else pauseTrack();
+}
+    
+function playTrack() {
+  // Play the loaded track
+  curr_track.play();
+  isPlaying = true;
+  
+  // Replace icon with the pause icon
+  playpause_btn.innerHTML = '<i class="fa fa-pause-circle"></i>';
+}
+    
+function pauseTrack() {
+  // Pause the loaded track
+  curr_track.pause();
+  isPlaying = false;
+  
+  // Replace icon with the play icon
+  playpause_btn.innerHTML = '<i class="fa fa-play-circle"></i>';
+}
+    
+function nextTrack() {
+  // Go back to the first track if the
+  // current one is the last in the track list
+  if (track_index < track_list.length - 1)
+    track_index += 1;
+  else track_index = 0;
+  
+  // Load and play the new track
+  loadTrack(track_index);
+  playTrack();
+}
+  
+function prevTrack() {
+  // Go back to the last track if the
+  // current one is the first in the track list
+  if (track_index > 0)
+    track_index -= 1;
+  else track_index = track_list.length - 1;
+  
+  // Load and play the new track
+  loadTrack(track_index);
+  playTrack();
+}
+
+function seekTo() {
+  // Calculate the seek position by the
+  // percentage of the seek slider
+  // and get the relative duration to the track
+  seekto = curr_track.duration * (seek_slider.value / 100);
+  
+  // Set the current track position to the calculated seek position
+  curr_track.currentTime = seekto;
+}
+  
+function setVolume() {
+  // Set the volume according to the
+  // percentage of the volume slider set
+  curr_track.volume = volume_slider.value / 100;
+  if (curr_track.volume == 0) {
+    vol_icon.innerHTML = '<i class="fa fa-volume-mute fa-fw"></i>';
+  } else {
+    vol_icon.innerHTML = '<i class="fa fa-volume-low fa-fw"></i>';
+  }
+}
+  
+function seekUpdate() {
+  let seekPosition = 0;
+  
+  // Check if the current track duration is a legible number
+  if (!isNaN(curr_track.duration)) {
+    seekPosition = curr_track.currentTime * (100 / curr_track.duration);
+    seek_slider.value = seekPosition;
+  
+    // Calculate the time left and the total duration
+    let currentMinutes = Math.floor(curr_track.currentTime / 60);
+    let currentSeconds = Math.floor(curr_track.currentTime - currentMinutes * 60);
+    let durationMinutes = Math.floor(curr_track.duration / 60);
+    let durationSeconds = Math.floor(curr_track.duration - durationMinutes * 60);
+  
+    // Add a zero to the single digit time values
+    if (currentSeconds < 10) { currentSeconds = "0" + currentSeconds; }
+    if (durationSeconds < 10) { durationSeconds = "0" + durationSeconds; }
+    if (currentMinutes < 10) { currentMinutes = "0" + currentMinutes; }
+    if (durationMinutes < 10) { durationMinutes = "0" + durationMinutes; }
+  
+    // Display the updated duration
+    curr_time.textContent = currentMinutes + ":" + currentSeconds;
+    // total_duration.textContent = durationMinutes + ":" + durationSeconds;
+  }
+}
+
+// Load the first track in the tracklist
+loadTrack(track_index);
+  
+    </script>
+  <!-- MUSIC PLAYER SCRIPT END -->
+     
+  </body>
+</html>

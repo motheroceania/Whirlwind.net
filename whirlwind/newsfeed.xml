@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <title>whirlwind</title>
+  <link>https://whirlwind.neocities.org/</link>
+  <description>a personal website on a computer in the sky</description>
+  <language>en-us</language>
+  
+  <item>
+    <title>graphics page published!</title>
+	<pubDate>Wed, 7 Aug 2024 12:00:29 MST</pubDate>
+    <link>https://whirlwind.neocities.org/graphics.html</link>
+	<guid>https://whirlwind.neocities.org/graphics.html</guid>
+    <description>created the graphics page which still is a wip a bit</description>
+  </item>
+  
+  <item>
+    <title>bookmarks page published!</title>
+	<pubDate>Sun, 4 Aug 2024 03:02:18 MST</pubDate>
+    <link>https://whirlwind.neocities.org/bookmarks.html</link>
+	<guid>https://whirlwind.neocities.org/bookmarks.html</guid>
+    <description>VERY LATE UPDATE PUBLISH SINCE IT TOOK ME UNTIL 3 AM TO REALIZE I DIDNT LOG IT INTO RSS but i finished my links page which is renamed bookmarks. its filled with a bunch of links collected from my bookmarks folder in my browser so have some fun. graphics page will be out soon</description>
+  </item>
+  
+  <item>
+    <title>medialog revamp!</title>
+	<pubDate>Thu, 1 Aug 2024 16:11:49 MST</pubDate>
+    <link>https://whirlwind.neocities.org/medialog.html</link>
+	<guid>https://whirlwind.neocities.org/medialog.html</guid>
+    <description>revamped my medialog page cause i think i neglect it too much</description>
+  </item>
+  
+  <item>
+    <title>newsletter page published!</title>
+	<pubDate>Thu, 25 Jul 2024 21:36:59 MST</pubDate>
+    <link>https://whirlwind.neocities.org/newsletter.html</link>
+	<guid>https://whirlwind.neocities.org/newsletter.html</guid>
+    <description>finished my newsletter page! some things might be changed with it tomorrow or so though!</description>
+  </item>
+
+ <item>
+    <title>new music page theme!</title>
+	<pubDate>Wed, 24 Jul 2024 19:13:22 MST</pubDate>
+    <link>https://whirlwind.neocities.org/music.html</link>
+	<guid>https://whirlwind.neocities.org/music.html</guid>
+    <description>updated my music page with a new theme! if you like bjork you should really check it out plspslpslspls</description>
+  </item>
+	
+
+</channel>
+
+</rss>

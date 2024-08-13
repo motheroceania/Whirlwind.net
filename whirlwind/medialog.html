@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>consumingggg</title>
+
+    <link href="/styling/medialog.css" rel="stylesheet" type="text/css" media="all">
+	<link rel="icon" type="image/x-icon" href="https://file.garden/ZAkEYVkUN2HXHCu3/web/graphics/uXwF7T5.gif">
+      <link rel="stylesheet" href="https://whirlwind.neocities.org/styling/scrollbar.css">
+      
+           <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Genos&display=swap" rel="stylesheet">
+      
+<link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+ <link rel="stylesheet" type="text/css" href="/styling/musicplayer.css">
+      
+<style>
+
+.lines {
+position: fixed;
+left: 0;
+top: 0;
+width: 100vw;
+height: 100vh;
+pointer-events: none;
+z-index: 300;
+opacity: 0.05;
+}
+ 
+.lines:before {
+content: '';
+position: absolute;
+left: 0;
+top: 0;
+right: 0;
+bottom: 0;
+pointer-events: none;
+background: linear-gradient(to bottom, transparent 50%, rgba(0, 0, 0, .5) 51%);
+background-size: 100% 4px;
+will-change: background, background-size; animation: scanlines 0.2s linear infinite;
+}
+ 
+@keyframes scanlines {
+from {
+background: linear-gradient(to bottom, transparent 10%, rgba(0, 0, 0, .5) 51%); background-size: 100% 4px; }
+to {
+background: linear-gradient(to bottom, rgba(0, 0, 0, .5) 50%, transparent 51%);
+background-size: 100% 4px;
+}
+}
+@media only screen and (max-width: 600px);
+{
+</style>
+
+  </head>
+  <body>
+      
+       <div class="lines"></div>
+      
+      <!-- LAYOUT START --> 
+      <div class="structure">
+          
+          <!-- MAIN START --> 
+          <main>
+              
+              <!-- HEADER START --> 
+              <header><h1>medialog</h1></header>
+              <!-- HEADER END --> 
+                  
+          <div class="flex" style="margin-top:5px;padding:2px;gap:10px">
+              
+              <aside style="flex:1">
+                  
+                  <!-- NAVIGATION START --> 
+                  <nav>
+                     <img src="https://file.garden/ZAkEYVkUN2HXHCu3/web/graphics/bullet.gif" style="position: absolute;top:0; left:2px">
+                      <img src="https://file.garden/ZAkEYVkUN2HXHCu3/web/graphics/bullet.gif" style="position: absolute;top:0; right:2px">
+                      <div class="nav-inner">
+                          <h3>navigation</h3>
+                       <div class="button-box">
+                           <button class="tablinks" onclick="openCity(event, 'about')"><img src="https://wilardo.crd.co/assets/images/gallery27/aa8fcbca.png?v=f32c5ae3"> about</button>
+                          <button  class="tablinks" onclick="openCity(event, 'games')"><img src="https://64.media.tumblr.com/3e5299505c57ad35795ababbae968609/a0e2068b4760eb74-0b/s75x75_c1/534a8e9cc0423a0c45323921ae887ccc44a002fe.gifv"> games</button>
+                          <button  class="tablinks" onclick="openCity(event, 'movies')"> <img src="https://pixelsafari.neocities.org/favicon/object/tech/disc5.gif"> movies</button>
+                          <button  class="tablinks" onclick="openCity(event, 'series')"><img src="https://gifcity.carrd.co/assets/images/gallery11/fa60fe95.gif?v=52814815"> series</button>
+                      </div>
+                      </div>
+                  <img src="https://i.pinimg.com/564x/9d/59/f2/9d59f2e965ae6311b63697eee01dc1a3.jpg" width="162" style="margin-top:5px;border:1px solid white;border-radius:5px;">
+                      
+                      <div class="links">
+                          <h3>links</h3>
+                      <div class="links-box">
+                          <a href="">letterbox</a>
+                          <a href="">backloggd</a>
+                          </div>
+                      </div>
+                      
+                      <img src="https://file.garden/ZAkEYVkUN2HXHCu3/web/graphics/bullet.gif" style="position: absolute;bottom:2px; left:2px">
+                      <img src="https://file.garden/ZAkEYVkUN2HXHCu3/web/graphics/bullet.gif" style="position: absolute;bottom:2px;px; right:2px">
+                  </nav>
+                  <!-- NAVIGATION END --> 
+              
+              </aside>
+              
+              <aside style="flex:3.2">
+                  <div class="main-content">
+                      <img src="https://file.garden/ZAkEYVkUN2HXHCu3/web/graphics/bullet.gif" style="position: absolute;top:0; left:2px">
+                      <img src="https://file.garden/ZAkEYVkUN2HXHCu3/web/graphics/bullet.gif" style="position: absolute;top:0; right:2px">
+                      
+                      <!-- ABOUT START --> 
+                      <div id="about" class="tabcontent" style="display:block">
+                      <h2>medialog</h2>
+                      <div class="content">
+                      <div class="about-inner">
+                         
+                          <div class="details">
+                              
+                              <h5 style="text-align: center;">welcome to the medialog!</h5>
+                              <img src="https://gifcity.carrd.co/assets/images/gallery85/7b2713e4.gif?v=52814815" style="float:left">
+                              <p><b>welcome</b>! this is the page where i log games, movies, series - just any media i got my hands on.</p>
+                              <p>aside from my letterboxd and backlogged, i like to go to this page and give out my full thoughts and feelings on the media i watched/played.
+                              <br>
+                              i really like horror, so you might see a majority of it in this page.</p>
+                              <p style="margin:0"><b><span style="color:red">warning</span>: there will be spoilers, gore, violence and other topics.</b></p>
+                          </div>
+                          
+                          
+                          </div>
+                      </div>
+                      </div>
+                      <!-- ABOUT END --> 
+                      
+                      <!-- GAMES START --> 
+                      <div id="games" class="tabcontent" style="display:none">
+                      <h2>gaming box</h2>
+                      <div class="content">
+                      <div class="content-inner">
+                          <details id="top" style="text-align: center;">
+                              <summary class="bookmarks"><span class="gradient">bookmarks</span></summary>
+                              <div class="dates"><a href="#alltime1">ALL-TIME</a> | <a href="#2024-1">2024</a> | <a href="#2025-1">2025</a></div>
+                              
+                          </details>
+                          <h4 id="alltime1">wip again lol</h4>
+                          <div class="reviews">
+                              <div class="review-inner">
+                              <img src="https://file.garden/ZAkEYVkUN2HXHCu3/web/images/Shadow%20of%20the%20Colossus.jpg">
+                                  <h5> shajdow of closlslo</h5>
+                                  <p>
+                                      ★★★★
+                                      <br>
+                                      wip
+                                  </p>
+                                  <details>
+                                      <summary>click for review</summary>
+                                      
+                                      <p> wip wip wip wip wip wip wip wip wip wip wip wip wip wip wip wip wip wip wip wip wip wip wip wip wip wip wip wip wip wip</p>
+                                  </details>
+                                  
+                                  
+                              </div>
+                          
+                          </div>
+                          <center style="margin-top:5px;"><a href="#top"><button>top</button></a></center>
+                          </div>
+                      </div>
+                      </div>
+                      <!-- GAMES END --> 
+                      
+                      <!-- MOVIES START --> 
+                      <div id="movies" class="tabcontent" style="display:none">
+                      <h2>DVD SHELF</h2>
+                      <div class="content">
+                      <div class="content-inner">
+                          <details id="top2" style="text-align: center;">
+                              <summary class="bookmarks"><span class="gradient">bookmarks</span></summary>
+                              <div class="dates"><a href="">ALL-TIME</a> | <a href="">2024</a> | <a href="">2025</a></div>
+                              
+                          </details>
+                          <h4>all time favorites</h4>
+                          <div class="reviews">
+                              <div class="review-inner">
+                              wip
+                              </div>
+                          
+                          </div>
+                          </div>
+                      </div>
+                      </div>
+                      <!-- MOVIES END --> 
+                      
+                      <!-- SERIES START --> 
+                      <div id="series" class="tabcontent" style="display:none">
+                      <h2>series library</h2>
+                      <div class="content">
+                      <div class="content-inner">
+                          <details id="top3" style="text-align: center;">
+                              <summary class="bookmarks"><span class="gradient">bookmarks</span></summary>
+                              <div class="dates"><a href="">ALL-TIME</a> | <a href="">2024</a> | <a href="">2025</a></div>
+                              
+                          </details>
+                          <h4>all time favorites</h4>
+                          <div class="reviews">
+                              <div class="review-inner">
+                              wip
+                              </div>
+                          
+                          </div>
+                          </div>
+                      </div>
+                      </div>
+                      <!-- SERIES END --> 
+                      
+                      <img src="https://file.garden/ZAkEYVkUN2HXHCu3/web/graphics/bullet.gif" style="position: absolute;bottom:2px; left:2px">
+                      <img src="https://file.garden/ZAkEYVkUN2HXHCu3/web/graphics/bullet.gif" style="position: absolute;bottom:2px;px; right:2px">
+                  </div>
+                  
+                  <!-- BLINKIES START -->    
+                <div class="blinkies">
+                  <marquee direction="right">
+                      <img src="https://wilardo.crd.co/assets/images/gallery09/f129b0ec.gif?v=f32c5ae3">
+                  <img src="https://wilardo.crd.co/assets/images/gallery09/d2901848.gif?v=f32c5ae3">
+                  <img src="https://wilardo.crd.co/assets/images/gallery09/47ebb8c0.gif?v=f32c5ae3">
+                  <img src="https://wilardo.crd.co/assets/images/gallery01/9eadb900.gif?v=f32c5ae3">
+                  <img src="https://wilardo.crd.co/assets/images/gallery01/3691cd79.gif?v=f32c5ae3">
+                      <img src="https://wilardo.crd.co/assets/images/gallery01/7dc61d3b.gif?v=f32c5ae3">
+                      <img src="https://wilardo.crd.co/assets/images/gallery19/8b69f286.gif?v=f32c5ae3">
+                      
+                      <img src="https://wilardo.crd.co/assets/images/gallery19/f89200ad.gif?v=f32c5ae3">
+                      <img src="https://wilardo.crd.co/assets/images/gallery25/e9647182.gif?v=f32c5ae3">
+                      <img src="https://wilardo.crd.co/assets/images/gallery26/abf804f9.gif?v=f32c5ae3">
+                  </marquee>
+              </div>
+                  <!-- BLINKIES END --> 
+                  
+                  <div class="flex" style="margin-top:10px;">
+                      <aside style="flex:1;">
+                      <div class="currently">
+                          <img src="https://file.garden/ZAkEYVkUN2HXHCu3/web/graphics/bullet.gif" style="position: absolute;top:0; left:2px">
+                      <img src="https://file.garden/ZAkEYVkUN2HXHCu3/web/graphics/bullet.gif" style="position: absolute;top:0; right:2px">
+                          
+                  <div class="current-content">
+                      <div style="padding:19px 0px 0px 38px;">
+                          <b>currently watching</b>:
+                          <br>
+                         idk LOL
+                          <br>
+                          <br>
+                          <b>currently playing</b>: 
+                          <br>not sure atm
+                      </div>
+                          </div>
+                          
+                          <img src="https://file.garden/ZAkEYVkUN2HXHCu3/web/graphics/bullet.gif" style="position: absolute;bottom:2px; left:2px">
+                      <img src="https://file.garden/ZAkEYVkUN2HXHCu3/web/graphics/bullet.gif" style="position: absolute;bottom:2px;px; right:2px">
+                  </div>
+                      </aside>
+                      
+                      <aside style="flex:1;">
+                          
+                      
+                      </aside>
+                  
+                  </div>
+              
+              </aside>
+              
+              </div>
+          </main>
+          <!-- MAIN END --> 
+          
+      </div>
+      <!-- LAYOUT END --> 
+      
+      <!-- PSP START --> 
+      <div class="psp-holder">
+      <img class="psp" src="https://file.garden/ZAkEYVkUN2HXHCu3/web/graphics/c73ae432711ae420296b83e2665341a4-removebg-preview%20(1).png">
+          <div class="psp-container">
+              <img src="https://64.media.tumblr.com/e23dee72152bfc6d9e1d7cec60b4a2f4/cc9a5f48775f6e76-12/s400x600/653715b45e5d3cdcd5281b5567563187c572dcd2.gifv" id="target" width="214" height="127" style="margin-left:-6px;margin-top-2px">
+             
+          </div>
+          </div>
+      <!-- PSP END --> 
+      
+      <span class="home"><a href="/main">home</a></span>
+      
+      <!-- MUSIC PLAYER START -->
+  <div id="musicplayer" class="player">
+				<!-- Define the section for displaying details -->
+							
+<div class="musicdetails">
+<img src="https://64.media.tumblr.com/a404105fb71eb8ea9d2c618a5d1bebdb/b4746bdbb4997815-9f/s75x75_c1/b373b5764a379488d22d13353c27cf4ab71c0050.gifv">
+    <div>
+         <marquee style="background:none; border:none; padding:0;height:fit-content;" scrollamount="3" class="now-playing"></marquee>
+    </div>
+							</div>
+      
+							<div class="playersettings">
+								<div class="current-time" style="float:left">00:00</div>
+								<div class="buttons">
+									<div class="prev-track" onclick="prevTrack()">
+										<i class="fa fa-step-backward"></i>
+									</div>
+									<div class="playpause-track" onclick="playpauseTrack()">
+										<i class="fa fa-play-circle"></i>
+									</div>
+									<div class="next-track" onclick="nextTrack()">
+										<i class="fa fa-step-forward"></i>
+									</div>
+								</div>
+	
+								<!-- Define the section for displaying the seek slider-->
+								<div class="slider_container">
+									<input type="range" min="1" max="100"
+										value="0" class="seek_slider" onchange="seekTo()">
+								</div>
+						
+								<!-- Define the section for displaying the volume slider-->
+								 <div class="slider_container">
+      <i class="fa fa-volume-down"></i>
+      <input type="range" min="1" max="100"
+        value="99" class="volume_slider" onchange="setVolume()">
+    </div>
+							</div>
+							
+						</div>
+  <!-- MUSIC PLAYER END -->
+ 
+  <!-- MUSIC PLAYER SCRIPT START -->
+  <script>
+      // Select all the elements in the HTML page
+// and assign them to a variable
+let now_playing = document.querySelector(".now-playing");
+
+let playpause_btn = document.querySelector(".playpause-track");
+let next_btn = document.querySelector(".next-track");
+let prev_btn = document.querySelector(".prev-track");
+let vol_icon = document.querySelector(".vol-icon");
+
+let seek_slider = document.querySelector(".seek_slider");
+let volume_slider = document.querySelector(".volume_slider");
+let curr_time = document.querySelector(".current-time");
+
+// Specify globally used values
+let track_index = 0;
+let isPlaying = false;
+let updateTimer;
+let total_duration = 0;
+
+// Create the audio element for the player
+let curr_track = document.createElement('audio');
+
+let track_list = [
+  {
+      name:"gorillaz - dracula",
+      path:"https://file.garden/ZAkEYVkUN2HXHCu3/mp3/Dracula%20-%20Gorillaz.mp3"
+  },
+  {
+      name:"gorillaz - november has come",
+      path:"https://file.garden/ZAkEYVkUN2HXHCu3/mp3/Gorillaz%20-%20November%20Has%20Come%20-%20Demon%20Days.mp3"
+  },
+  {
+      name:"gorillaz - spitting out the demons",
+      path:"https://file.garden/ZAkEYVkUN2HXHCu3/mp3/Spitting%20out%20the%20Demons%20-%20Gorillaz.mp3"
+  },
+];
+
+function loadTrack(track_index) {
+  // Clear the previous seek timer
+  clearInterval(updateTimer);
+  resetValues();
+  
+  // Load a new track
+  curr_track.src = track_list[track_index].path;
+  curr_track.load();
+  
+  // Update details of the track
+  now_playing.textContent = track_list[track_index].name;
+  
+  // Set an interval of 1000 milliseconds
+  // for updating the seek slider
+  updateTimer = setInterval(seekUpdate, 1000);
+  
+  // Move to the next track if the current finishes playing
+  // using the 'ended' event
+  curr_track.addEventListener("ended", nextTrack);
+  
+}
+  
+// Function to reset all values to their default
+function resetValues() {
+  curr_time.textContent = "00:00";
+  // total_duration.textContent = "00:00";
+  seek_slider.value = 0;
+}
+
+function playpauseTrack() {
+  // Switch between playing and pausing
+  // depending on the current state
+  if (!isPlaying) playTrack();
+  else pauseTrack();
+}
+    
+function playTrack() {
+  // Play the loaded track
+  curr_track.play();
+  isPlaying = true;
+  
+  // Replace icon with the pause icon
+  playpause_btn.innerHTML = '<i class="fa fa-pause-circle"></i>';
+}
+    
+function pauseTrack() {
+  // Pause the loaded track
+  curr_track.pause();
+  isPlaying = false;
+  
+  // Replace icon with the play icon
+  playpause_btn.innerHTML = '<i class="fa fa-play-circle"></i>';
+}
+    
+function nextTrack() {
+  // Go back to the first track if the
+  // current one is the last in the track list
+  if (track_index < track_list.length - 1)
+    track_index += 1;
+  else track_index = 0;
+  
+  // Load and play the new track
+  loadTrack(track_index);
+  playTrack();
+}
+  
+function prevTrack() {
+  // Go back to the last track if the
+  // current one is the first in the track list
+  if (track_index > 0)
+    track_index -= 1;
+  else track_index = track_list.length - 1;
+  
+  // Load and play the new track
+  loadTrack(track_index);
+  playTrack();
+}
+
+function seekTo() {
+  // Calculate the seek position by the
+  // percentage of the seek slider
+  // and get the relative duration to the track
+  seekto = curr_track.duration * (seek_slider.value / 100);
+  
+  // Set the current track position to the calculated seek position
+  curr_track.currentTime = seekto;
+}
+  
+function setVolume() {
+  // Set the volume according to the
+  // percentage of the volume slider set
+  curr_track.volume = volume_slider.value / 100;
+  if (curr_track.volume == 0) {
+    vol_icon.innerHTML = '<i class="fa fa-volume-mute fa-fw"></i>';
+  } else {
+    vol_icon.innerHTML = '<i class="fa fa-volume-low fa-fw"></i>';
+  }
+}
+  
+function seekUpdate() {
+  let seekPosition = 0;
+  
+  // Check if the current track duration is a legible number
+  if (!isNaN(curr_track.duration)) {
+    seekPosition = curr_track.currentTime * (100 / curr_track.duration);
+    seek_slider.value = seekPosition;
+  
+    // Calculate the time left and the total duration
+    let currentMinutes = Math.floor(curr_track.currentTime / 60);
+    let currentSeconds = Math.floor(curr_track.currentTime - currentMinutes * 60);
+    let durationMinutes = Math.floor(curr_track.duration / 60);
+    let durationSeconds = Math.floor(curr_track.duration - durationMinutes * 60);
+  
+    // Add a zero to the single digit time values
+    if (currentSeconds < 10) { currentSeconds = "0" + currentSeconds; }
+    if (durationSeconds < 10) { durationSeconds = "0" + durationSeconds; }
+    if (currentMinutes < 10) { currentMinutes = "0" + currentMinutes; }
+    if (durationMinutes < 10) { durationMinutes = "0" + durationMinutes; }
+  
+    // Display the updated duration
+    curr_time.textContent = currentMinutes + ":" + currentSeconds;
+    // total_duration.textContent = durationMinutes + ":" + durationSeconds;
+  }
+}
+
+// Load the first track in the tracklist
+loadTrack(track_index);
+  
+    </script>
+  <!-- MUSIC PLAYER SCRIPT END -->
+  </body>
+
+
+    
+<!-- TAB SCRIPT -->    
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+<!-- TAB SCRIPT -->    
+    
+<!-- PSP SCRIPT -->    
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+  const log = console.log,
+    array = ["https://64.media.tumblr.com/e23dee72152bfc6d9e1d7cec60b4a2f4/cc9a5f48775f6e76-12/s400x600/653715b45e5d3cdcd5281b5567563187c572dcd2.gifv", "https://64.media.tumblr.com/d49611715f8025427a94c2ac21f50713/80b3a68dadae0f52-68/s400x600/af1ada7a06f48ef056bbc69ccdf6e1e25ba42a39.gifv", "https://64.media.tumblr.com/4c60f6b56be3471ab2f5a0cd38afbf6a/62cc34b63c70b642-86/s400x600/52d17b22f6cac330db47c1a9ac124b1637802192.gifv","https://64.media.tumblr.com/75e1f9b9089cdedb02cf7e1462ec879f/5259440557fcdca1-4f/s400x600/3b19da39758945bcbb6c13c50d7c8bd2ceae269b.gifv"],
+    random = Math.floor(Math.random() * array.length),
+    target = document.getElementById("target");
+  target.src = `${array[random]}`;
+  log(target);
+});
+</script>
+<!-- PSP SCRIPT -->
+    
+</html>

@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styling/scrollbar.css">
+    <title>Not Found</title>
+    
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Genos&display=swap" rel="stylesheet">
+
+ <style>
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Genos&display=swap');
+ 
+ body {
+     background: black;
+     display: block;
+     margin-left:auto;
+     margin-right:auto;
+     width:700px;
+     font-family: ms ui gothic;
+ }
+
+::selection {
+color:blue;
+background:black;
+}
+ 
+ .map {
+    width: 460px;
+    height: 345px;
+    border: 2px solid white;
+    padding: 5px;
+    position: absolute;
+    transform: translate(112px, 117px);
+    z-index: 1;
+    background: linear-gradient(to top, blue, black);
+    overflow: hidden;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.heading {
+    color: white;
+    font-size: 3em;
+    margin: 0;
+    position: relative;
+    transform: translate(0px, 30px);
+    font-family: 'Genos', sans-serif;
+    text-shadow: -8px 6px 0px blue, -20px 15px 0px #0000ff61;
+}
+
+.map h2 {
+    margin:0px;
+    color: white;
+   font-family: 'Genos', sans-serif;
+}
+
+.map h3 {
+    margin:0px;
+    color: white;
+    font-family: 'Genos', sans-serif;
+}
+
+ul {
+    list-style-type:none;
+    text-align:left;
+}
+
+.map a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+.map a:hover {
+    font-style:italic;
+    text-decoration:underline;
+    background:black;
+}
+
+.beg {
+    padding-left:150px;
+}
+
+.list {
+    overflow: auto;
+    height: 270px;
+}
+     
+ </style>
+ 
+ <style>
+.lines {
+position: fixed;
+left: 0;
+top: 0;
+width: 100vw;
+height: 100vh;
+pointer-events: none;
+z-index: 300;
+opacity: 0.05;
+}
+ 
+.lines:before {
+content: '';
+position: absolute;
+left: 0;
+top: 0;
+right: 0;
+bottom: 0;
+pointer-events: none;
+background: linear-gradient(to bottom, transparent 50%, rgba(0, 0, 0, .5) 51%);
+background-size: 100% 4px;
+will-change: background, background-size; animation: scanlines 0.2s linear infinite;
+}
+ 
+@keyframes scanlines {
+from {
+background: linear-gradient(to bottom, transparent 10%, rgba(0, 0, 0, .5) 51%); background-size: 100% 4px; }
+to {
+background: linear-gradient(to bottom, rgba(0, 0, 0, .5) 50%, transparent 51%);
+background-size: 100% 4px;
+}
+}
+@media only screen and (max-width: 600px);
+{
+</style>
+ 
+ <style>
+#s-m-t-tooltip{
+	/* basic */
+	max-width: 300px;
+	z-index: 10;
+	margin: 24px 14px 7px 12px;
+	/* style and design */
+	padding:8px;
+	border-radius:3px;
+    background: black;
+border: 1px solid blue;
+	color: white;
+font-family: ms ui gothic;
+font-size:13px;
+}
+</style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+<script src="https://static.tumblr.com/lspzyz3/xloqk6cgp/jquery.style-my-tooltips.js"></script>
+<script>
+							(function($){
+							$(document).ready(function(){
+							$("[title]").style_my_tooltips({
+							tip_follows_cursor: true,
+							tip_delay_time:100,
+							tip_fade_speed:100,
+							attribute:"title"
+							});
+							});
+							})(jQuery);
+</script>
+ 
+  </head>
+  <body>
+      
+         <div class="lines"></div>
+      
+<center>
+    
+    <h1 class="heading">error</h1>
+    
+    <div class="map">
+        <h2>i think the page you were looking for doesnt exist.</h2>
+        <h3>find a different channel?</h3>
+        
+        <div class="list">
+            
+        <ul class="beg">
+            <li>- <a href="/index" title="the start of the site">beginning</a> </li>
+            <li>- <a href="/main" title="the main page">main</a></li>
+	    <li style="margin-left:30px">﹂ <a href="/subpages/updates" title="the site's updates in full screen">updates</a>
+            
+            <h3 style="margin:5px;">personal</h3>
+            <ul class="main">
+            <li>- <a href="/webmaster" title="about the webmaster, a big nerd.">webmaster</a> </li>
+            <li>- <a href="/blog" title="my blog, i type a lot of nonsense.">blog</a> </li>
+            
+            <li style="margin-left:30px">﹂ <a href="/subpages/personal" title="the blog's personal section in full screen">personal</a> </li>
+            <li style="margin-left:30px">﹂ <a href="/subpages/music" title="the blog's music section in full screen">music</a> </li>
+            <li style="margin-left:30px">﹂ <a href="/subpages/filmseries" title="the blog's film/series section in full screen">film/series</a> </li>
+            <li style="margin-left:30px">﹂ <a href="/subpages/games" title="the blog's games section in full screen">games</a> </li>
+            
+            <li>- <a href="/music" title="collection of my cds/vinyls, my music taste, and listening log">music</a> </li>
+            <li>- <a href="/medialog" title="logging of various media i watch and play. such as games, and films.">medialog</a> </li>
+            <li>- <a href="/maya" title="lovemail for my wife maya <3">wife</a> </li>
+            
+            <li>- <a href="/photos" title="a photo book of things i take randomly. like my cats, surroundings, etc">photos</a> </li>
+             <li style="margin-left:30px">﹂ <a href="/subpages/recents" title="the photos page's recents section in full screen">recents</a>
+             <li style="margin-left:30px">﹂ <a href="/subpages/cats" title="the photos page's cats section in full screen">cats</a>
+             <li style="margin-left:30px">﹂ <a href="/subpages/tdl" title="the photos page's tomodachi life section in full screen">tomodachi life</a>
+        </ul>
+       <h3 style="margin:5px;">art</h3>
+    <ul>
+         <li>- <a href="/art" title="gallery of my artwork">gallery</a> </li>  
+         <li>- <a href="/collection" title="collection of my original characters">ocs</a> </li>
+    </ul>
+    <h3 style="margin:5px;">library</h3>
+    <ul>
+        <li>- <a href="/not_found" title="the site's map if you get lost">sitemap</a> (you are here!)</li>
+        <li>- <a href="/newsletter" title="extended news and plans of the site">newsletter</a> </li>
+        <li style="margin-left:30px">﹂ <a href="/subpages/newsframe" title="the newsletter page's news section in full screen">newsframe</a>
+         <li>- <a href="/shrines" title="lots of shrines of my interests/loves">shrines</a> </li>
+         <li style="margin-left:40px">﹂ <a href="/shrine/bjork" title="my mother">björk</a> </li>
+         <li style="margin-left:40px">﹂ <a href="/shrine/radiohead" title="the loser shrine...">radiohead</a> </li>
+         <li style="margin-left:40px">﹂ <a href="/shrine/thom" title="my mother #2">thom yorke</a> </li>
+         <li style="margin-left:40px">﹂ <a href="/shrine/saw" title="quote on quote homoerotic horror movie">saw</a> </li>
+          
+          
+         <li>- <a href="/bookmarks" title="the site's credits and bookmarks page filled with a bunch of links i found">bookmarks</a></li>
+         <li>- <a href="/graphics" title="collection of pixels, blinkies, etc i found">graphics</a></li>
+         <li>- <a href="/templates" title="layout templates by yours truly">templates</a></li>
+         <li>- <a href="/archive" title="the archive of the site">archive</a></li>
+         <h3 style="margin:5px;">outlinks</h3>
+         <li>- <a href="https://neocities.org/site/whirlwind" title="site's neocities profile">profile</a></li>
+        <li>- <a href="https://whirlwind.atabook.org/" title="my guestbook">guestbook</a></li>
+    </ul>
+</ul>
+
+        </div>
+        
+    </div>
+    
+   <img src="https://file.garden/ZAkEYVkUN2HXHCu3/web/graphics/tvset.png" style="width: 700px;filter: drop-shadow(0px 0px 1px white);pointer-events:none;z-index: 2;position: relative;">
+</center>
+
+  </body>
+</html>

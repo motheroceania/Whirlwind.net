@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pictures pictures!!</title>
+      
+       <link rel="stylesheet" href="/styling/scrollbar.css">
+    <link href="/styling/photos.css" rel="stylesheet" type="text/css" media="all">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Genos&display=swap" rel="stylesheet">
+
+<link rel="icon" type="image/x-icon" href="https://wilardo.crd.co/assets/images/gallery23/9779ac37.gif?v=bca827db">
+<link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+ <link rel="stylesheet" type="text/css" href="/styling/musicplayer.css">
+      
+<style>
+.lines {
+position: fixed;
+left: 0;
+top: 0;
+width: 100vw;
+height: 100vh;
+pointer-events: none;
+z-index: 300;
+opacity: 0.05;
+}
+ 
+.lines:before {
+content: '';
+position: absolute;
+left: 0;
+top: 0;
+right: 0;
+bottom: 0;
+pointer-events: none;
+background: linear-gradient(to bottom, transparent 50%, rgba(0, 0, 0, .5) 51%);
+background-size: 100% 4px;
+will-change: background, background-size; animation: scanlines 0.2s linear infinite;
+}
+ 
+@keyframes scanlines {
+from {
+background: linear-gradient(to bottom, transparent 10%, rgba(0, 0, 0, .5) 51%); background-size: 100% 4px; }
+to {
+background: linear-gradient(to bottom, rgba(0, 0, 0, .5) 50%, transparent 51%);
+background-size: 100% 4px;
+}
+}
+@media only screen and (max-width: 600px);
+{
+}
+</style>
+      
+  </head>
+  <body>
+      
+      <div class="lines"></div>
+      
+      <!-- LAYOUT START -->
+      <div class="structure">
+          
+          <!-- PICLOG START -->
+          <div class="photos-wrapper">
+              <h1>photos</h1>
+              <img class="camera" src="https://64.media.tumblr.com/b942c8aa5bc1d5806496947dd018617b/22c989f623d5f4c1-1e/s1280x1920/a09e2c6cae122f0cd0c0954fd54cefab37a774af.pnj">
+          <div class="photo-box">
+              <div class="top">
+                  100% <span style=""><span class="blink" style="color:red; font-size:10px;">●</span> REC</span> <span style="font-weight: bold;">1h 39m</span>
+              </div>
+            
+              <iframe name="photos" class="photos-frame" src="subpages/recents.html">
+                    </iframe>
+              
+              </div>
+          </div>
+          <!-- PICLOG END -->
+          
+          <!-- SIDEBAR START -->
+          <div class="sidebar-wrapper">
+              <div class="sidebar">
+                  <h2>directory</h2>
+                  <div class="inner">
+                      <details>
+                      <summary>
+                          <img src="https://xyz.crd.co/assets/images/gallery01/f93b60ee.gif?v=4ca63763https://xyz.crd.co/assets/images/gallery01/f93b60ee.gif?v=4ca63763">about
+                          </summary>
+                          <div class="desc">
+                              <p style="margin-top:5px; margin-bottom:5px;"><b>welcome to my photo book!</b></p> 
+                              <p style="margin-top:5px; margin-bottom:5px;">this is a collection of random photos i took through out my daily life.</p>
+                              
+                         <p style="margin-top:5px; margin-bottom:5px;">like a web gallery for myself, except its photos i thought held some meaning or maybe i just thought it looked cool.</p>
+                          </div>
+                      </details>
+                      <details>
+                      <summary>
+                          <img src="https://xyz.crd.co/assets/images/gallery01/f93b60ee.gif?v=4ca63763https://xyz.crd.co/assets/images/gallery01/f93b60ee.gif?v=4ca63763">albums
+                          </summary>
+                          <div class="desc">
+                              <ul>
+                                  <li><a target="photos" href="/subpages/recents">recents</a></li>
+                                  <li><a target="photos" href="/subpages/cats">cats</a></li>
+                                  <li><a href="">tomodachi life</a></li>
+                              </ul>
+                              
+                          </div>
+                      </details>
+                  </div>
+              </div>
+          </div>
+          <!-- SIDEBAR END -->
+          
+          <!-- FLOATERS START -->
+           <img class="floater1" src="https://file.garden/ZAkEYVkUN2HXHCu3/web/graphics/idjndhf.png">
+          <img class="floater2" src="https://file.garden/ZAkEYVkUN2HXHCu3/web/graphics/paper%20and%20tape%20pack%201/7.png">
+          
+          <img class="floater3" src="https://file.garden/ZAkEYVkUN2HXHCu3/web/graphics/MEQTCFY_o.png">
+          
+          <img class="floater4" src="https://file.garden/ZAkEYVkUN2HXHCu3/web/graphics/dolphin.png">
+          
+          <img class="floater5" src="https://file.garden/ZAkEYVkUN2HXHCu3/web/graphics/plrlntf.png">
+          <!-- FLOATERS END -->
+          
+      </div>
+      <!-- LAYOUT END -->
+      
+      <!-- HOME LINK START -->
+       <span class="home"><a href="/main">home</a></span>
+      <!-- HOME LINK END -->
+      
+        <!-- MUSIC PLAYER START -->
+  <div id="musicplayer" class="player" style="text-shadow:none">
+				<!-- Define the section for displaying details -->
+							
+<div class="musicdetails">
+<img src="https://64.media.tumblr.com/a404105fb71eb8ea9d2c618a5d1bebdb/b4746bdbb4997815-9f/s75x75_c1/b373b5764a379488d22d13353c27cf4ab71c0050.gifv">
+    <div>
+         <marquee style="background:none; border:none; padding:0;height:fit-content;" scrollamount="3" class="now-playing"></marquee>
+    </div>
+							</div>
+      
+							<div class="playersettings">
+								<div class="current-time" style="float:left">00:00</div>
+								<div class="buttons">
+									<div class="prev-track" onclick="prevTrack()">
+										<i class="fa fa-step-backward"></i>
+									</div>
+									<div class="playpause-track" onclick="playpauseTrack()">
+										<i class="fa fa-play-circle"></i>
+									</div>
+									<div class="next-track" onclick="nextTrack()">
+										<i class="fa fa-step-forward"></i>
+									</div>
+								</div>
+	
+								<!-- Define the section for displaying the seek slider-->
+								<div class="slider_container">
+									<input type="range" min="1" max="100"
+										value="0" class="seek_slider" onchange="seekTo()">
+								</div>
+						
+								<!-- Define the section for displaying the volume slider-->
+								 <div class="slider_container">
+      <i class="fa fa-volume-down"></i>
+      <input type="range" min="1" max="100"
+        value="99" class="volume_slider" onchange="setVolume()">
+    </div>
+							</div>
+							
+						</div>
+  <!-- MUSIC PLAYER END -->
+ 
+  <!-- MUSIC PLAYER SCRIPT START -->
+  <script>
+      // Select all the elements in the HTML page
+// and assign them to a variable
+let now_playing = document.querySelector(".now-playing");
+
+let playpause_btn = document.querySelector(".playpause-track");
+let next_btn = document.querySelector(".next-track");
+let prev_btn = document.querySelector(".prev-track");
+let vol_icon = document.querySelector(".vol-icon");
+
+let seek_slider = document.querySelector(".seek_slider");
+let volume_slider = document.querySelector(".volume_slider");
+let curr_time = document.querySelector(".current-time");
+
+// Specify globally used values
+let track_index = 0;
+let isPlaying = false;
+let updateTimer;
+let total_duration = 0;
+
+// Create the audio element for the player
+let curr_track = document.createElement('audio');
+
+let track_list = [
+  {
+      name:"the smashing pumpkins - today",
+      path:"https://file.garden/ZAkEYVkUN2HXHCu3/mp3/The%20Smashing%20Pumpkins%20-%20Today%20(HQ).mp3"
+  },
+  {
+      name:"the smashing pumpkins - 1979",
+      path:"https://file.garden/ZAkEYVkUN2HXHCu3/mp3/1979%20-%20Remastered%202012%20-%20The%20Smashing%20Pumpkins.mp3"
+  },
+  {
+      name:"the smashing pumpkins - mayonaise",
+      path:"https://file.garden/ZAkEYVkUN2HXHCu3/mp3/The%20Smashing%20Pumpkins%20-%20Mayonaise%20(2011%20Remaster).mp3"
+  },
+];
+
+function loadTrack(track_index) {
+  // Clear the previous seek timer
+  clearInterval(updateTimer);
+  resetValues();
+  
+  // Load a new track
+  curr_track.src = track_list[track_index].path;
+  curr_track.load();
+  
+  // Update details of the track
+  now_playing.textContent = track_list[track_index].name;
+  
+  // Set an interval of 1000 milliseconds
+  // for updating the seek slider
+  updateTimer = setInterval(seekUpdate, 1000);
+  
+  // Move to the next track if the current finishes playing
+  // using the 'ended' event
+  curr_track.addEventListener("ended", nextTrack);
+  
+}
+  
+// Function to reset all values to their default
+function resetValues() {
+  curr_time.textContent = "00:00";
+  // total_duration.textContent = "00:00";
+  seek_slider.value = 0;
+}
+
+function playpauseTrack() {
+  // Switch between playing and pausing
+  // depending on the current state
+  if (!isPlaying) playTrack();
+  else pauseTrack();
+}
+    
+function playTrack() {
+  // Play the loaded track
+  curr_track.play();
+  isPlaying = true;
+  
+  // Replace icon with the pause icon
+  playpause_btn.innerHTML = '<i class="fa fa-pause-circle"></i>';
+}
+    
+function pauseTrack() {
+  // Pause the loaded track
+  curr_track.pause();
+  isPlaying = false;
+  
+  // Replace icon with the play icon
+  playpause_btn.innerHTML = '<i class="fa fa-play-circle"></i>';
+}
+    
+function nextTrack() {
+  // Go back to the first track if the
+  // current one is the last in the track list
+  if (track_index < track_list.length - 1)
+    track_index += 1;
+  else track_index = 0;
+  
+  // Load and play the new track
+  loadTrack(track_index);
+  playTrack();
+}
+  
+function prevTrack() {
+  // Go back to the last track if the
+  // current one is the first in the track list
+  if (track_index > 0)
+    track_index -= 1;
+  else track_index = track_list.length - 1;
+  
+  // Load and play the new track
+  loadTrack(track_index);
+  playTrack();
+}
+
+function seekTo() {
+  // Calculate the seek position by the
+  // percentage of the seek slider
+  // and get the relative duration to the track
+  seekto = curr_track.duration * (seek_slider.value / 100);
+  
+  // Set the current track position to the calculated seek position
+  curr_track.currentTime = seekto;
+}
+  
+function setVolume() {
+  // Set the volume according to the
+  // percentage of the volume slider set
+  curr_track.volume = volume_slider.value / 100;
+  if (curr_track.volume == 0) {
+    vol_icon.innerHTML = '<i class="fa fa-volume-mute fa-fw"></i>';
+  } else {
+    vol_icon.innerHTML = '<i class="fa fa-volume-low fa-fw"></i>';
+  }
+}
+  
+function seekUpdate() {
+  let seekPosition = 0;
+  
+  // Check if the current track duration is a legible number
+  if (!isNaN(curr_track.duration)) {
+    seekPosition = curr_track.currentTime * (100 / curr_track.duration);
+    seek_slider.value = seekPosition;
+  
+    // Calculate the time left and the total duration
+    let currentMinutes = Math.floor(curr_track.currentTime / 60);
+    let currentSeconds = Math.floor(curr_track.currentTime - currentMinutes * 60);
+    let durationMinutes = Math.floor(curr_track.duration / 60);
+    let durationSeconds = Math.floor(curr_track.duration - durationMinutes * 60);
+  
+    // Add a zero to the single digit time values
+    if (currentSeconds < 10) { currentSeconds = "0" + currentSeconds; }
+    if (durationSeconds < 10) { durationSeconds = "0" + durationSeconds; }
+    if (currentMinutes < 10) { currentMinutes = "0" + currentMinutes; }
+    if (durationMinutes < 10) { durationMinutes = "0" + durationMinutes; }
+  
+    // Display the updated duration
+    curr_time.textContent = currentMinutes + ":" + currentSeconds;
+    // total_duration.textContent = durationMinutes + ":" + durationSeconds;
+  }
+}
+
+// Load the first track in the tracklist
+loadTrack(track_index);
+  
+    </script>
+  <!-- MUSIC PLAYER SCRIPT END -->    
+    
+  </body>
+</html>
