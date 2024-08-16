@@ -19,8 +19,9 @@ body {
 }
 
 ::selection {
-    background:rgb(255, 0, 0);
-    text-shadow:yellowgreen 0 0 2px;
+    background:silver;
+    text-shadow:black 0 0 2px;
+    color:greenyellow;
 }
 
 a {
