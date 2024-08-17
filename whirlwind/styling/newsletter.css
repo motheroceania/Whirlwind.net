@@ -193,6 +193,7 @@ header .calendar-navigation span:hover {
  
 .calendar-dates li.active {
    font-weight: bold;
+    color:blue;
 }
  
 .calendar-dates li::before {
