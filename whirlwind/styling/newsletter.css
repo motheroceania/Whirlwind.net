@@ -181,7 +181,7 @@ header .calendar-navigation span:hover {
 }
  
 .calendar-body .calendar-dates li {
-    margin-top: .5em;
+    margin-top: 1em;
     position: relative;
     z-index: 1;
     cursor: pointer;
