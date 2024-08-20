@@ -30,6 +30,7 @@ h1 {
     transition: all 0.5s;
     margin-top:0;
     margin-bottom:0;
+    text-align: center;
 }
 
 h1:hover {
