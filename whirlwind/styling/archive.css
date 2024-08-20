@@ -1,0 +1,322 @@
+body {
+  font-size: 15px;
+  font-family: "simsun";
+    background:linear-gradient(90deg, rgba(255,255,255,1) 55%, rgba(236,236,236,0) 100%), url(https://file.garden/ZAkEYVkUN2HXHCu3/web/images/98uuhjtg.png);
+    background-attachment: fixed;
+}
+
+::selection {
+    color: white;
+    background-color: black;
+    text-shadow: none;
+}
+
+a {
+    color:black;
+    text-decoration: underline;
+}
+
+a:hover {
+    font-style: italic;
+}
+
+h1 {
+    margin-left:10px;
+    font-family: 'Genos', sans-serif;
+    color: white;
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000, 0 0 3px #000;
+    font-size: 4.2em;
+    webkit-background-clip: text;
+    transition: all 0.5s;
+    margin-top:0;
+    margin-bottom:0;
+}
+
+h1:hover {
+    webkit-filter: blur(0.5px);
+filter: blur(2px);
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h3 {
+    outline:1px solid #616161;
+    border-left:2px solid lightgrey;
+    border-top:2px solid lightgrey;
+    width:250px;
+    padding:2px;
+    padding-left:6px;
+    margin:0;
+    text-transform: uppercase;
+    text-shadow:1px 1px lightgrey;
+    color: #616161;
+    position: relative;
+    border-radius: 0 0 10px 0
+}
+
+mark {
+    background:black;
+    color:white;
+    padding:1px;
+}
+
+.structure {
+  width:fit-content;
+  margin-top:5vh;
+  margin-left:5px;
+}
+
+.flex {
+    display: flex;
+    gap:5px;
+}
+
+header p {
+    padding-left:50px;
+    border-bottom:1px solid black;
+}
+
+main {
+    border:1px solid black;
+    padding:7px;
+    width:700px;
+    box-shadow: 2px 2px black;
+    border-radius:5px;
+    background:white;
+}
+
+nav {
+    padding-left:10px;
+}
+
+.nav-inner {
+     position: sticky;
+    top: 10px;
+}
+
+nav ul {
+    padding-left: 5px;
+    margin: 0;
+    list-style-type: none;
+    position: relative;
+    border-left:2px solid black
+}
+
+nav li {
+    display: flex;
+    margin-left:-5px;
+    margin-top:10px;
+
+}
+
+nav li:first-child {
+    margin-top:0;
+}
+
+.con1 {
+  border-bottom:2px solid black;
+    display: inline-block;
+    width:20px;
+    margin-top:auto;
+    margin-bottom:auto;
+    margin-right:5px;
+}
+
+.con2 {
+    border-left: 2px solid black;
+    width: fit-content;
+    height:14px;
+}
+
+ul aside {
+    margin-left:25px;
+}
+
+nav a {
+    color:black;
+    text-decoration: underline solid;
+    font-weight: bold;
+}
+
+nav a:hover {
+    border:1px solid black;
+    padding:1px;
+    text-decoration: none;
+}
+
+.divider {
+    border:1px solid black;
+    padding:2px;
+    border-radius:5px;
+    background:linear-gradient(0deg, rgba(52,52,52,1) 0%, rgba(164,164,164,1) 86%, rgba(236,236,236,1) 97%);
+    box-shadow:0 0 1px
+}
+
+.but {
+    border:1px solid black;
+    padding:5px;
+    display: inline-block;
+    box-shadow: 1px 1px grey;
+}
+
+.but2 {
+    border:1px solid black;
+    padding:2px;
+    display: inline-block;
+    box-shadow: 1px 1px grey;
+}
+
+.main-inner {
+    border:1px solid #616161;
+    box-shadow:inset 0 0 0 2px lightgrey;
+    border-radius:3px;
+    position: relative;
+}
+
+.tabhead {
+    border:1px solid #616161;
+    display: inline-block;
+    padding:5px;
+    border-left:none;
+    border-top:none;
+    background:white;
+    margin-top:-1px;
+    margin-left:-1px;
+    text-shadow:1px 1px lightgrey;
+    color: #616161;
+     box-shadow: 2px 2px 0 0 lightgrey;
+     z-index: 5;
+    text-transform: uppercase;
+}
+
+.tabhead2 {
+    box-shadow: -2px 2px 0 0 lightgrey;
+    border:1px solid #616161;
+    position: absolute;
+    border-right:none;
+    border-top:none;
+    right:0;
+    top:0;
+    margin-top:-1px;
+    margin-right:-1px;
+     background:white;
+    padding:5px;
+     z-index: 5;
+    text-shadow:1px 1px lightgrey;
+}
+
+.tabhead2 span:hover {
+    padding:1px;
+    border:1px solid black;
+}
+
+.container {
+    padding:7px;
+    border:1px solid black;
+    border-radius:5px;
+    box-shadow: 2px 2px black;
+}
+
+.inner {
+   border:1px solid #616161;
+    box-shadow:inset 0 0 0 2px lightgrey;
+    border-radius:3px;
+    position: relative; 
+}
+
+.container p {
+    padding:1px;
+    margin:10px;
+    font-size:13px;
+}
+
+.container p:hover {
+   background:#ececec; 
+}
+
+.tree {
+  border:1px black solid;
+    padding:3px;
+    background:url(https://file.garden/ZAkEYVkUN2HXHCu3/web/images/uyiu.png)
+}
+
+.tree2 {
+    border:1px black solid;
+    height: fit-content;
+}
+
+.tabfoot {
+    border:1px solid #616161;
+    display: inline-block;
+    padding:5px;
+    border-left:none;
+    border-bottom:none;
+    background:white;
+    margin-bottom:-1px;
+    margin-left:-1px;
+    text-shadow:1px 1px lightgrey;
+    color: #616161;
+     box-shadow: 2px -2px 0 0 lightgrey;
+     z-index: 5;
+}
+
+.tabfoot2 {
+    border:1px solid #616161;
+    position: absolute;
+    padding:5px;
+    border-right:none;
+    border-bottom:none;
+    background:white;
+    text-shadow:1px 1px lightgrey;
+    color: #616161;
+     box-shadow: -2px -2px 0 0 lightgrey;
+    right:-1px;
+    bottom:-1px;
+    z-index: 5;
+}
+
+.capture {
+    border:1px solid black;
+    width:300px;
+    display: block;
+    margin:auto;
+    box-shadow:1px 1px grey;
+    transition: all 0.5s;
+    z-index: 10;
+    position: relative;
+}
+
+hr {
+    border-bottom:1px solid black;
+    border-top:none;
+    margin-block:10px;
+}
+
+.capture:hover {
+    transform:scale(1.9);
+}
+
+
+  .home {
+    color: white;
+    z-index: 10;
+    position: fixed;
+    font-weight: bold;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    top: 4px;
+    left: 5px;
+      font-family: "ms ui gothic"
+}
+    
+    .home a {
+        text-decoration: none;
+        color:white;
+}
+    
+    .home a:hover {
+        font-style:italic;
+}
+
