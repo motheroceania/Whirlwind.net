@@ -315,7 +315,7 @@ main {
 }
 
 .hbar {
-    background: linear-gradient(0deg, rgba(127, 126, 126, 1) 0%, rgba(162, 161, 162, 1) 24%, rgba(252, 253, 255, 1) 59%, rgba(161, 161, 161, 1) 82%, rgba(127, 126, 126, 1) 99%);
+    background: linear-gradient(to bottom, #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 53%,#4e4e4e 76%,#383838 87%,#1b1b1b 100%);
     padding: 0 5px 0 8px;
     border-radius: 100px;
     border:1px outset black;
@@ -326,8 +326,10 @@ main {
     display: flex;
     justify-content: space-between;
     font-weight: bold;
-    text-shadow:1px 1px rgba(0, 0, 0, 0.29), -1px -1px rgba(255, 255, 255, 0.51);
+    text-shadow:1px 1px rgba(0, 0, 0, 0.29), -1px -1px rgba(255, 255, 255, 0.26);
     z-index: 10;
+    color:white;
+    outline:1px solid yellowgreen;
 }
 
 .hbar span {
