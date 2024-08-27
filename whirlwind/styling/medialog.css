@@ -333,7 +333,7 @@ nav button:nth-child(4) {
     background: linear-gradient(to top, #cdcdcd, transparent);
     box-shadow: inset 3px 0px 0px 0px red, inset 0px 0px 4px 4px white;
     padding-left: 5px;
-    padding:2px;
+    padding:7px;
 }
 
 .reviews details > summary {
@@ -380,6 +380,7 @@ marquee {
     background-position: -2px -17px;
     filter:drop-shadow(0px 0px 3px black);
     text-shadow: 1px 1px darkgray;
+    font-size:13px;
 }
 
 .currently b {
