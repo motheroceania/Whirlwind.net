@@ -233,6 +233,7 @@ tab-wrapper a:active {
     background:url(https://file.garden/ZAkEYVkUN2HXHCu3/web/images/c010-5.gif);
     box-shadow:inset 0px 0px 2px 2px rgba(0, 0, 0, 0.22);
     overflow:auto;
+        font-size:13px;
 }
 
 .status p {
