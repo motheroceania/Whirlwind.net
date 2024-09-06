@@ -19,7 +19,7 @@ body {
 
 .header {
     width: 773px;
-    height: 160px;
+    height: 180px;
     border: 2px solid blue;
     padding: 5px;
     margin-left: auto;
@@ -40,7 +40,7 @@ body {
     webkit-background-clip: text;
     text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000, 0 0 3px #000;
     transition: all 0.5s;
-    transform: translate(0px, -25px);
+    transform: translate(0px, -5px);
 }
 
 .header h1:hover {
