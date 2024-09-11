@@ -1,0 +1,678 @@
+body {
+    font-family:ms ui gothic;
+    font-size:15px;
+    width:1060px;
+    margin:auto;
+    background:url(https://file.garden/ZAkEYVkUN2HXHCu3/web/images/u8g58idkrg.png);
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+:root {
+        --font: "ms ui gothic";
+      }
+
+      [data-theme="inconsolata"] body {
+        --font: "Inconsolata", monospace;
+      }
+
+      [data-theme="simsun"] body {
+        --font: "SIMSUN";
+      }
+
+      [data-theme="mincho"] body {
+        --font: "BIZ UDMincho";    
+      }
+
+[data-theme="hibiya"] body {
+        --font: "hibiya";    
+      }
+
+@font-face {
+	font-family: "hibiya";
+	src: url("https://file.garden/ZAkEYVkUN2HXHCu3/fonts/hibiya.ttf") format('truetype');
+}
+
+
+:root  {
+        --h2bg: linear-gradient(180deg, #bc7e59 27%, #3e2a20 65%);
+        --h2border:1px solid #492D1F;
+        --h2color:white;
+        
+    
+        --hrbg: linear-gradient( to left, white, #7D6053, white);
+        
+        --structurebgimg: repeating-linear-gradient(0deg, #5C3F27, #5C3F27 1px, transparent 1px, transparent);
+        --structurebgcolor:#3C2719;
+        --structurebgsize:2px 2px;
+        
+        --mainborder: 1px solid #3C2719;
+        --main-innerbg: url(https://foollovers.com/mat/dot/t25-bg-polkadot.gif),white;
+        --main-innershadow:inset -5px -5px 4px rgb(0 0 0 / 30%);
+    
+        --liningborder: 1px dashed #7D6053;
+        --titlebg:white;
+        --titlecolor:saddlebrown;
+        --title2shadow:inset 0 0 5px 0 #d48a66;
+        --title2color:black;
+        --title2bg: white;
+    
+        --mainselect: 1px solid black;
+        --mainselectshadow:0 0 0 1px white inset, inset 0 -5px 5px 0 #d48a66;
+        --main-headerbutton: radial-gradient(circle, #d48a66 0%, #41291d 72%, #1d120d 100%);
+    
+        --asideleftborder: 1px dashed #7D6053;
+    
+        --contentborder: 1px solid #492D1F;
+        --contentbg: url(https://file.garden/ZAkEYVkUN2HXHCu3/web/images/s007-5.gif);
+    
+        --inputsummaryborder: 1px outset #bc7e59;
+        --inputsummarybg:#bc7e59;
+        --inputsummarycolor:white;
+        --textcol: #000000b3;
+        --inputsummaryact:1px inset #bc7e59;
+    
+        --messageborder:1px solid #492D1F;
+        --messagebg:white;
+        --messagecolor:black;
+    
+        --formbg: white;
+        --formborder: 1px solid black;
+        --formcolor:black;
+        --smilieshov: 1px dashed black;
+    
+        --usercontbg: #3C2719;
+        --usercontborder:1px solid black;
+        --userinnerbg:#BC7E59;
+        --userinnerborder:1px dashed white;
+    
+        --userheaderimg:url(https://file.garden/ZAkEYVkUN2HXHCu3/web/images/jyghjino-07a.jpg);
+       --userheaderborder:1px solid black;
+       --pfpborder:1px solid black;
+       --pfpimg: url(https://file.garden/ZAkEYVkUN2HXHCu3/web/images/debut1.png);
+       --userdescborder: 1px solid black;
+       --userdescbg: white;
+    
+       --bioborder:1px solid black;
+       --biobg:white;
+    
+       --entryborder:1px solid black;
+       --entrybg:white;
+       --entrycolor:black;
+       --entrybuttonborder:1px solid #5C3928;
+       --entrybuttonbg:linear-gradient(180deg, rgba(74,38,31,1) 15%, rgba(191,151,137,1) 73%, rgba(255,255,255,1) 100%);
+       --entrybuttonshadow:0 0 0 1px white inset;
+       --entrybuttoncolor:white;
+    
+       --usernamecolor:saddlebrown;
+    
+       --userdetailsbg: url(https://foollovers.com/mat/plaid02/k01-bg-checked.gif);
+       --userdetailsinnerbg:white;
+        --userdetailscolor:black; 
+      }
+
+a {
+    color:var(--usernamecolor);
+    font-weight: bold;
+    text-decoration: dotted underline;
+}
+
+a:hover {
+    text-transform: uppercase;
+}
+
+mark {
+    color:var(--usernamecolor);
+    background:none;
+}
+
+#s-m-t-tooltip{
+	/* basic */
+	max-width: 300px;
+	z-index: 10;
+	margin: 24px 14px 7px 12px;
+	/* style and design */
+	padding:8px;
+	border-radius:3px;
+    background: black;
+border: 1px solid var(--usernamecolor);
+	color: white;
+font-family: ms ui gothic;
+font-size:13px;
+}
+
+::selection {
+    color:var(--usernamecolor);
+    background:transparent;
+    text-decoration: underline;
+}
+
+h1,h2,h3 {
+    margin:0;
+}
+
+h1 {
+     font-family: 'Genos', sans-serif;
+    color: white;
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000, 0 0 3px #000;
+    font-size: 4.5em;
+    webkit-background-clip: text;
+    transition: all 0.5s;
+    margin-left:151px;
+    margin-top:1.3vh;
+}
+
+h1:hover {
+    webkit-filter: blur(0.5px);
+filter: blur(2px);
+}
+
+h2 {
+    font-size:20px;
+    border: var(--h2border);
+    padding:2px;
+    border-radius:5px 5px 0 0;
+    border-bottom:none;
+   background: var(--h2bg);
+    box-shadow:0 0 2px white inset;
+    padding-left:5px;
+    text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
+    color:var(--h2color);
+}
+
+h3 {
+   color:black; 
+}
+
+hr {
+    background:var(--hrbg);
+    border:none;
+    height:1px;
+}
+
+.structure {
+    margin-left:auto;
+    margin-right:auto;
+    width:fit-content;
+    background-image: var(--structurebgimg);
+background-size: var(--structurebgsize);
+background-color: var(--structurebgcolor);
+    box-shadow:inset 0 0 0 1px white, inset 0 0 5px 0 #ffffff8f, 0 0 4px white;
+    border:2px solid black;
+    border-radius:10px;
+    padding:15px;
+    position: relative;
+   
+}
+
+main {
+    border:var(--mainborder);
+    padding:7px;
+    margin:auto;
+    font-family: var(--font);
+    border-radius:5px;
+    font-size:15px;
+    width:745px; 
+    background:#DCD8D8;
+    outline:1px solid white;
+}
+
+.main-inner {
+    padding:2px;
+    background:var(--main-innerbg);
+    border-radius:3px;
+    box-shadow: var(--main-innershadow);
+}
+
+.lining {
+    border:var(--liningborder);
+    padding:5px;
+    border-radius:3px;
+}
+
+.title {
+    background:var(--titlebg);
+    border-radius:3px;
+    padding:2px;
+    width:100px;
+    margin-left:3px;
+    margin-bottom:-5px;
+    position: relative;
+    z-index: 11;
+    font-weight: bold;
+    color:var(--titlecolor);
+    text-shadow:1px 1px black;
+    font-size:14px;
+}
+
+.title hr {
+  margin:0;
+    border:none;
+    background:var(--hrbg);
+    height:1px;
+    margin-top:2px;
+    
+}
+
+.main-header {
+    display:flex;
+    gap:5px;
+    justify-content: space-between
+}
+
+.main-header select {
+    border:var(--mainselect);
+    border-radius:5px;
+    margin-bottom:5px;
+    box-shadow:var(--mainselectshadow);
+    background:white;
+}
+
+.main-header button {
+    border-radius:100px;
+    border:1px solid black;
+    background: var(--main-headerbutton);
+    background-position: 0 98px;
+    font-family: var(--font);
+    text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
+    color:white;
+}
+
+.flex {
+    display: flex;
+    gap:5px;
+}
+
+#asideleft {
+    border-right: var(--asideleftborder);
+}
+
+.content {
+    border:var(--contentborder);
+    padding:5px;
+    box-shadow:inset 0 0 5px rgba(0, 0, 0, 0.46);
+    overflow-y:scroll;
+    border-radius:0 0 5px 5px;
+    background:var(--contentbg);
+}
+
+.title2 {
+    border:1px solid black;
+    padding:3px;
+    border-radius:5px;
+    background:var(--title2bg);
+    margin-right:5px;
+    font-size: 12px;
+    text-shadow: none;
+    box-shadow:var(--title2shadow);
+    color:var(--title2color);
+    font-weight: bold;
+    outline:1px solid white;
+}
+
+.input-header {
+    font-size:20px;
+    border:var(--h2border);
+    padding:1px;
+    border-radius:5px 5px 0 0;
+    border-bottom:none;
+   background: var(--h2bg);
+    box-shadow:0 0 2px white inset;
+    padding-left:5px;
+    display: flex;
+    gap:5px;
+    padding-top:3px;
+}
+
+.input-header summary {
+    border:var(--inputsummaryborder);
+    list-style: none;
+    width: 20px;
+    text-align: center;
+    background:var(--inputsummarybg);
+    text-shadow: none;
+    color:var(--inputsummarycolor);
+    position: relative;
+    font-family: ms ui gothic;
+}
+
+#textcol {
+    color:var(--textcol)
+}
+
+#message-area {
+    border:var(--messageborder);
+    width: 100%;
+   box-sizing: border-box;
+    resize: none;
+    box-shadow:inset 0 0 5px rgba(0, 0, 0, 0.46);
+    border-radius:0 0 5px 5px;
+    background:var(--messagebg);
+    color:var(--messagecolor);
+    font-family: var(--font);
+}
+
+form {
+    position: absolute;
+    z-index: 10;
+    border:var(--formborder);
+    padding:5px;
+    background:var(--formbg);
+    width:200px;
+    text-shadow: none;
+    color:var(--formcolor);
+    font-family: none;
+}
+
+#smilies img:hover {
+    border:var(--smilieshov);
+}
+
+.input-header summary:active {
+    border:var(--inputsummaryact);
+}
+
+.input-header select {
+    box-shadow:var(--mainselectshadow);
+    border:var(--mainselect);
+    border-radius:5px;
+}
+
+.user-content {
+    border:var(--usercontborder);
+    border-radius:5px;
+    padding:2px;
+    background:var(--usercontbg);
+}
+
+.inner {
+    border:var(--userinnerborder);
+    padding:5px;
+    border-radius:3px;
+    background:var(--userinnerbg);
+}
+
+.user-header {
+    height:70px;
+    border:var(--userheaderborder);
+    border-radius:5px 5px 0 0; 
+    background:var(--userheaderimg);
+    background-size:cover;
+    background-position: 0px -112px;
+}
+
+.pfp {
+    border:var(--pfpborder);
+    height: 4.5rem;
+    width: 4.5rem;
+    background-image: var(--pfpimg);
+    border-radius: 5px;
+    background-size: cover;
+}
+
+.desc {
+    border:var(--userdescborder);
+    border-top:none;
+    border-radius: 0 0 5px 5px;
+    background:var(--userdescbg);
+    padding-bottom:5px;
+}
+
+.bio {
+    margin-top:5px;
+    border:var(--bioborder);
+    padding:5px;
+    border-radius:5px;
+    background:var(--biobg);
+    font-size:13px;
+    box-shadow:0 0 2px white;
+}
+
+.entry-wrapper {
+    border:var(--usercontborder);
+    padding:2px;
+    border-radius:5px;
+    margin-bottom:5px;
+    background:var(--usercontbg);
+}
+
+.pfp2 {
+    border:var(--pfpborder);
+    height: 3rem;
+    width: 3rem;
+    background-image: var(--pfpimg);
+    border-radius: 5px;
+    background-size: cover;
+    margin-top:auto;
+}
+
+.entry {
+    border:var(--entryborder);
+    margin-left:3px;
+    position: relative;
+    box-shadow: 0 1px 2px white;
+    background:var(--entrybg);
+    border-radius:5px;
+    color:var(--entrycolor);
+    overflow: hidden;
+}
+
+.entryarrow {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 15px;
+    border: var(--entryborder);
+    background: var(--entrybg);
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    transform: skew(-50deg);
+    z-index: 10;
+}
+
+.entry-cover {
+    content: "";
+    display: block;
+    width: 23px;
+    height: 18px;
+    background: var(--entrybg);
+    position: absolute;
+    transform: skew(-50deg);
+    z-index: 15;
+}
+
+.entry-details {
+    width: 100%;
+    margin-top:5px;
+}
+
+.entry-inner {
+    border:var(--userinnerborder);
+    padding:5px;
+    border-radius:5px;
+    background:var(--userinnerbg);
+}
+
+.entry img {
+    position: relative;
+    z-index: 50;
+    cursor: pointer;
+}
+
+
+
+.entryname {
+    font-weight: bold;
+    display: inline-block;
+    margin-left:10px;
+    border:var(--entryborder);
+    border-bottom:none;
+    background:var(--entrybg);
+    padding:2px;
+    border-radius: 3px 3px 0 0;
+    color:var(--usernamecolor);
+}
+
+article {
+    position: relative;
+    z-index: 50;
+    font-size:13px;
+    background:white;
+    padding:5px;
+}
+
+.entry-details button {
+    border-radius:5px;
+    border:var(--entrybuttonborder);
+    box-shadow:var(--entrybuttonshadow);
+   background: var(--entrybuttonbg);
+    color:var(--entrybuttoncolor);
+    position: relative;
+    font-family: ms ui gothic;
+    cursor: pointer;
+}
+
+#clap:after {
+   content:"";
+    width:28px;
+    height:5px;
+    background: linear-gradient(white, transparent);
+    position: absolute;
+    top:1px;
+    left:3px;
+    border-radius:10px;
+    
+}
+
+#comment:after {
+   content:"";
+    width:59px;
+    height:5px;
+    background: linear-gradient(white, transparent);
+    position: absolute;
+    top:1px;
+    left:3px;
+    border-radius:10px;
+}
+
+.user-details {
+    border:var(--usercontborder);
+    margin-top:5px;
+    padding: 10px;
+    border-radius:5px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2), inset -2px -2px 3px rgba(0, 0, 0, 0.511), inset 2px 2px 3px white;
+    background:var(--userdetailsbg);
+    position: relative;
+}
+
+.details-inner {
+    box-shadow: inset 3px 3px 5px rgba(0, 0, 0, 0.444);
+    padding: 5px;
+    margin: 2px;
+    background:var(--userdetailsinnerbg);
+    color:var(--userdetailscolor);
+    border-radius:5px;
+    font-size:12px; 
+}
+
+.clip {
+    background: url(https://file.garden/ZAkEYVkUN2HXHCu3/web/graphics/paperclip.png);
+    width: 27px;
+    height: 62px;
+    position: absolute;
+    top: -14px;
+    right: 10px;
+    filter: drop-shadow(3px 3px 1px #363636);
+}
+
+
+.tab {
+    border:1px solid black;
+    padding:5px;
+    width:100px;
+    background-image: var(--structurebgimg);
+background-size: var(--structurebgsize);
+background-color: var(--structurebgcolor);
+    box-shadow:inset 0 0 0 1px white;
+    border-radius:5px;
+    padding-right:25px;
+    z-index: 5;
+    position: absolute;
+    left:-76px;
+    top:33%;
+}
+
+.tablinks {
+    width:100%;
+    margin-bottom:5px;
+    cursor: pointer;
+    background:white;
+    border:none;
+    border-radius:3px;
+    padding:2px;
+    font-family: var(--font);
+    position: relative;
+    z-index: 15;
+    border:1px solid
+}
+
+.tablinks:hover {
+    font-style: italic;
+}
+
+.tablinks span {
+  border:var(--liningborder);
+    display: block;
+    border-radius:3px;
+}
+
+.tablinks:nth-child(2) {
+    margin:0;
+}
+
+.user-details img {
+    cursor: pointer;
+}
+
+#blink {
+    animation: blink  1s linear infinite both;
+}
+
+@keyframes blink {
+    
+0%, 50% {
+    opacity: 100%;
+}
+
+51%, 100% {
+    opacity: 0%;
+}
+       
+}
+
+  .home {
+    color: white;
+    z-index: 10;
+    position: fixed;
+    font-weight: bold;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    top: 4px;
+    left: 5px;
+      font-family: "ms ui gothic"
+}
+    
+    .home a {
+        text-decoration: none;
+        color:white;
+        font-size: 15px;
+}
+    
+    .home a:hover {
+        font-style:italic;
+        text-transform: none;
+}
+
+.entry-details a {
+    color:black;
+}
