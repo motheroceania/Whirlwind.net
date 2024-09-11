@@ -656,7 +656,7 @@ background-color: var(--structurebgcolor);
     z-index: 10;
     position: fixed;
     font-weight: bold;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
     top: 4px;
     left: 5px;
       font-family: "ms ui gothic"
@@ -664,7 +664,7 @@ background-color: var(--structurebgcolor);
     
     .home a {
         text-decoration: none;
-        color:white;
+        color:black;
         font-size: 15px;
 }
     
