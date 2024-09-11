@@ -6,6 +6,14 @@
   <link>https://whirlwind.neocities.org/</link>
   <description>a personal website on a computer in the sky</description>
   <language>en-us</language>
+  
+  <item>
+    <title>dashboard page created!</title>
+	<pubDate>Wed, 11 Sept 2024 07:46:42 MST</pubDate>
+    <link>https://whirlwind.neocities.org/dashboard.html</link>
+	<guid>https://whirlwind.neocities.org/dashboard.html</guid>
+    <description>basically a microblog page</description>
+  </item>
     
     <item>
     <title>newsletter entry 8/22/2024</title>
