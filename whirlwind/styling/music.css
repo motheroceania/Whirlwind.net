@@ -609,3 +609,14 @@ nav button:hover {
 bottom: 0;
 height: 100%;
 }
+
+.lastfm .maravillosoTitulo {
+    text-align: left;
+    color: black;
+    font-size: 10px;
+    display: none;
+}
+
+.lastfm .lfm-img {
+    border:1px solid black;
+}
